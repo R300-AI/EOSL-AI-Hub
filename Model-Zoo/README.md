@@ -7,11 +7,11 @@ In our Python Demo examples, developers will find a variety of pre-trained model
 #### [:point_right:Deploy to Ryzen](https://github.com/R300-AI/AMD-ryzen-demo/blob/main)
 
 ## Computer Vision
-* **Image Classification ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/ImageClassificationBenchmarks.md))**   | `Raspberry Pi`, `Genio`
-* **Object Detection ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/ObjectDetectionBenchmarks.md))**           | `Raspberry Pi`, `Genio`
-* **Pose Estimation ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/PoseEstimationBenchmarks.md))**             | `Raspberry Pi`, `Genio`
-* **Semantic Segmentation ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/SemanticSegmentationBenchmarks.md))** | `Raspberry Pi`, `Genio`
+* **Image Classification ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/ImageClassificationBenchmarks.md))**   | `Raspberry Pi`, `Genio`, `Ryzen`
+* **Object Detection ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/ObjectDetectionBenchmarks.md))**           | `Raspberry Pi`, `Genio`, `Ryzen`
+* **Pose Estimation ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/PoseEstimationBenchmarks.md))**             | `Raspberry Pi`, `Genio`, `Ryzen`
+* **Semantic Segmentation ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/SemanticSegmentationBenchmarks.md))** | `Raspberry Pi`, `Genio`, `Ryzen`
 
 ## Language Process
-* **Text To Text ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/TextToTextBenchmarks.md))**     | `Raspberry Pi`, `Genio`
-* **Voice To Text ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/VoiceToTextBenchmarks.md))**   | `Raspberry Pi`, `Genio`
+* **Text To Text ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/TextToTextBenchmarks.md))**     | `Raspberry Pi`, `Genio`, `Ryzen`
+* **Voice To Text ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/VoiceToTextBenchmarks.md))**   | `Raspberry Pi`, `Genio`, `Ryzen`
