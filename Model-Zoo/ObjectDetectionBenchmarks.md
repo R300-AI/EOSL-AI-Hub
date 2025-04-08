@@ -10,3 +10,5 @@
   | yolo11n  |  Genio-510/700      | NeuronRT(`MDLA 3.0`)        |  161.9   |           |               |                  |
   | yolo12n |  Genio-510/700/1200  | ArmNN(`Mali-G57 MC2`)        |  550.4 |           |               |                  |
   | yolo12n |  Genio-510/700       | NeuronRT(`MDLA 3.0`)         |  221.4   |           |               |                  |
+
+  ## AMD Ryzen Series
