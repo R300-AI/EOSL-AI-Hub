@@ -25,7 +25,7 @@ The Raspberry Pi module is a compact and versatile platform ideal for developing
 <details open>
 <summary>MediaTek Genio AIoT Module</summary>
 
-The MediaTek Genio module is a high-performance platform designed for AIoT applications, powered by **Arm Cortex-A**, **Arm GPU**, and **MediaTek DLA**. Its **shared memory SoC architecture** enables efficient data exchange between CPU, GPU, and NPU, optimizing AI workloads for computer vision, natural language processing, and multimodal applications. With support for General-Purpose I/O (GPIO) interfaces, it is ideal for developing edge AI solutions.
+The MediaTek Genio module is a high-performance platform designed for AIoT applications, powered by **Arm Cortex-A**, **Arm GPU**, and **MediaTek DLA**. Its **shared memory SoC architecture** enables efficient data exchange, optimizing AI workloads for computer vision, natural language processing, and multimodal applications. With support for General-Purpose I/O (GPIO) interfaces, it is ideal for developing edge AI solutions.
 
 ![](https://img.shields.io/badge/OS-Ubuntu_|_Yocto-orange) ![](https://img.shields.io/badge/NeuronPilot-v6-blue) ![](https://img.shields.io/badge/Python-3.7-green)
  
@@ -38,7 +38,7 @@ The MediaTek Genio module is a high-performance platform designed for AIoT appli
 <details>
 <summary>AMD Ryzen AI PC Module</summary>
 
-AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating the most powerful **Zen CPU**, **M iGPU** and **XDNA NPU**, capable of delivering up to 50 TOPs of AI performance.
+AMD Ryzen AI processors are cutting-edge SoCs designed for AI PCs, integrating the powerful **Zen CPU**, **RDNA iGPU**, and **XDNA NPU**. With seamless multi-chip synchronization, they deliver up to **50 TOPs** of AI performance, making them ideal for high-performance AI workloads in desktop and edge computing environments.
 
 ![](https://img.shields.io/badge/OS-Windows-orange) ![](https://img.shields.io/badge/Quark_Quantizer-latest-blue) ![](https://img.shields.io/badge/Vitis_AI_EP-latest-blue) ![](https://img.shields.io/badge/DirectML_EP-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
   * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
@@ -50,7 +50,7 @@ AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating t
 <details>
 <summary>NVIDIA Jetson GPU Module</summary>
   
-Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring an **Arm CPU** and the most powerful **Ampere GPUs**. It delivers impressive AI performance ranging from 67~275 TOPS.
+Jetson Orin is a cutting-edge SoC designed for edge AI applications, featuring an **Arm CPU** and the powerful **Ampere architecture GPU**, delivering exceptional AI performance ranging from **67~275 TOPS**. Its GPU is optimized for high-performance parallel computing, making it ideal for deep learning inference, computer vision, and other AI workloads requiring high throughput.
 
 ![](https://img.shields.io/badge/OS-Ubuntu_|_JetPack-orange) ![](https://img.shields.io/badge/TensorRT-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
 
@@ -63,7 +63,6 @@ The WiseEye2 AI Processor is a low-power AI solution designed for always-on appl
 
 ![](https://img.shields.io/badge/OS-FreeRTOS_|_RT-Thread-orange) ![](https://img.shields.io/badge/Framework-TensorFlow_Lite_Micro-blue) ![](https://img.shields.io/badge/Language-C_|_C++-green)
 
-  * [Introduction to WiseEye2](https://www.itri.org.tw/english/ListStyle.aspx?DisplayStyle=05&SiteID=1&MmmID=617731531432066044)  
   * [Deploy AI Models with TensorFlow Lite Micro](https://www.tensorflow.org/lite/microcontrollers)  
   * [Efficient AI on Arm Ethos-U NPUs](https://developer.arm.com/ip-products/processors/machine-learning/ethos-u)
   
