@@ -13,12 +13,12 @@ Contact With Us :wave:
 <details>
 <summary>Arm Raspberry Pi Module</summary>
 
-The Raspberry Pi module is powered by **Arm Cortex-A** processors, offering a balance of performance and energy efficiency. It is ideal for prototyping and deploying AI applications in edge computing scenarios. The module supports a wide range of peripherals and interfaces, making it versatile for various IoT and AI projects.
+The Raspberry Pi module is a compact and versatile platform ideal for developing and deploying small-scale, standalone or multi-node AI applications. Powered by **Arm Cortex-A** processors, it supports a wide range of AI development tasks
 
 ![](https://img.shields.io/badge/OS-Raspberry_Pi_OS_|_Ubuntu-orange) ![](https://img.shields.io/badge/Python-3.9-green) ![](https://img.shields.io/badge/Framework-TensorFlow_|_PyTorch-blue)
   * [Get Started with Raspberry Pi OS](https://www.raspberrypi.com/documentation/computers/getting-started.html)
   * [Deploy AI Models on Raspberry Pi](https://www.tensorflow.org/lite/guide/python)
-  * [Optimize AI Performance with ONNX Runtime](https://onnxruntime.ai/)
+  * [ONNX Runtime IoT Deployment on Raspberry Pi](https://onnxruntime.ai/docs/tutorials/iot-edge/rasp-pi-cv.html)
 
 </details>
 
@@ -58,14 +58,14 @@ Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring a
 <details>
 <summary>WiseEye2 AI Processor</summary>
 
-The WiseEye2 AI Processor is a low-power AI solution designed for always-on applications such as vision and audio recognition. It integrates **Arm Cortex-M** cores and a dedicated **AI accelerator**, delivering efficient AI inference for edge devices. Its compact design and low power consumption make it suitable for battery-powered devices.
+The WiseEye2 AI Processor is a low-power AI solution designed for always-on applications such as vision and audio recognition. It integrates **Arm Cortex-M** cores and a dedicated **Arm Ethos-U NPU**, delivering efficient AI inference for edge devices. Its compact design and low power consumption make it suitable for battery-powered devices.
 
 ![](https://img.shields.io/badge/OS-FreeRTOS_|_RT-Thread-orange) ![](https://img.shields.io/badge/Framework-TensorFlow_Lite_Micro-blue) ![](https://img.shields.io/badge/Language-C_|_C++-green)
-  * [Get Started with WiseEye2 Development](https://www.itri.org.tw/wiseeye2)
-  * [Deploy AI Models with TensorFlow Lite Micro](https://www.tensorflow.org/lite/microcontrollers)
-  * [Optimize Power Efficiency for AI Applications](https://developer.arm.com/solutions/machine-learning-on-arm/efficient-ml)
 
- 
+  * [Introduction to WiseEye2](https://www.itri.org.tw/english/ListStyle.aspx?DisplayStyle=05&SiteID=1&MmmID=617731531432066044)  
+  * [Deploy AI Models with TensorFlow Lite Micro](https://www.tensorflow.org/lite/microcontrollers)  
+  * [Efficient AI on Arm Ethos-U NPUs](https://developer.arm.com/ip-products/processors/machine-learning/ethos-u)
+  
 </details>
 
 <details>
