@@ -71,11 +71,12 @@ The WiseEye2 AI Processor is a low-power AI solution designed for always-on appl
 <details>
 <summary>Hailo AI Processor</summary>
 
-Hailo offers 26~40 TOPs expansion cards designed for accelerating computer vision process. It provide **mPCIe/M.2 interface** to connect with above modules. **(*registration is required to access the documents)**
+Hailo offers 26~40 TOPs expansion cards designed for accelerating computer vision processes. It provides **mPCIe/M.2 interface** to connect with other modules. **(*registration is required to access the documents)**
 
 ![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/PyHailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-green)
   * [Install Dataflow Compiler with Evaluation Board](https://hailo.ai/developer-zone/documentation/dataflow-compiler-v3-27-0/?sp_referrer=install/install.html)
-  * [Install HailoRT(PCIe Driver) and pyHailoRT with mPCIe or M.2 board](https://hailo.ai/developer-zone/documentation/hailort-v4-17-0/?sp_referrer=install/install.html#ubuntu-installer-requirements)
+  * [Install HailoRT (PCIe Driver) and pyHailoRT with mPCIe or M.2 board](https://hailo.ai/developer-zone/documentation/hailort-v4-17-0/?sp_referrer=install/install.html#ubuntu-installer-requirements)
+
 </details>
 
 
