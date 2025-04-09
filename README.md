@@ -25,9 +25,10 @@ The Raspberry Pi module is a compact and versatile platform ideal for developing
 <details open>
 <summary>MediaTek Genio AIoT Module</summary>
 
-Genio is powered by **Arm Cortex-A**, **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS of low-power AI computing performance. It supports General-Purpose I/O (GPIO) interfaces, making it suitable for developing AIoT-level computer vision applications.
+The MediaTek Genio module is a high-performance platform designed for AIoT applications, powered by **Arm Cortex-A**, **Arm GPU**, and **MediaTek DLA**. Its **shared memory SoC architecture** enables efficient data exchange between CPU, GPU, and NPU, optimizing AI workloads for computer vision, natural language processing, and multimodal applications. With support for General-Purpose I/O (GPIO) interfaces, it is ideal for developing edge AI solutions.
 
 ![](https://img.shields.io/badge/OS-Ubuntu_|_Yocto-orange) ![](https://img.shields.io/badge/NeuronPilot-v6-blue) ![](https://img.shields.io/badge/Python-3.7-green)
+ 
   * [Get Started with IoT Yocto](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started.html)
   * [Get Started with Ubuntu on Genio](https://mediatek.gitlab.io/genio/doc/ubuntu/get-started.html)
   * [Deploy Pre-Trained Models using NVIDIA TAO Toolkit](https://mediatek.gitlab.io/genio/doc/tao/index.html)
