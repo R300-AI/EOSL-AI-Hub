@@ -15,15 +15,15 @@
 
   | Model   |     Chipsets      |    Framework         |    Speed (ms) |   Memory (GB) |  Power (Watt) |     Temp (°C)    |
   |---------|-------------------|----------------------|---------------|---------------|---------------|------------------|
-  | yolov5n  |  Ryzen AI 9 HX   | CPUExecution(`CPU`)   |  26.24        |               |               |                  |
-  | yolov5n  |  Ryzen AI 9 HX   | DirectML(`iGPU`)      |  6.27         |               |               |                  |
-  | yolov5n  |  Ryzen AI 9 HX   | VitisAI(`NPU`)        |  29.93        |               |               |                  |
-  | yolov8n  |  Ryzen AI 9 HX   | CPUExecution(`CPU`)   |  29.34        |               |               |                  |
-  | yolov8n  |  Ryzen AI 9 HX   | DirectML(`iGPU`)      |  7.86         |               |               |                  |
-  | yolov8n  |  Ryzen AI 9 HX   | VitisAI(`NPU`)        |  31.15        |               |               |                  |
-  | yolo11n  |  Ryzen AI 9 HX   | CPUExecution(`CPU`)   |  26.22        |               |               |                  |
-  | yolo11n  |  Ryzen AI 9 HX   | DirectML(`iGPU`)      |  8.1          |               |               |                  |
-  | yolo11n  |  Ryzen AI 9 HX   | VitisAI(`NPU`)        |  28.97        |               |               |                  |
-  | yolo12n  |  Ryzen AI 9 HX   | CPUExecution(`CPU`)   |  32.63        |               |               |                  |
-  | yolo12n  |  Ryzen AI 9 HX   | DirectML(`iGPU`)      |  12.43        |               |               |                  |
-  | yolo12n  |  Ryzen AI 9 HX   | VitisAI(`NPU`)        |  34.88        |               |               |                  |
+  | yolov5n  |  Ryzen AI 9 HX   | CPU EP(`CPU`)   |  26.24        |               |               |                  |
+  | yolov5n  |  Ryzen AI 9 HX   | DirectML EP(`iGPU`)      |  6.27         |               |               |                  |
+  | yolov5n  |  Ryzen AI 9 HX   | Vitis AI EP(`NPU`)        |  29.93        |               |               |                  |
+  | yolov8n  |  Ryzen AI 9 HX   | CPU EP(`CPU`)   |  29.34        |               |               |                  |
+  | yolov8n  |  Ryzen AI 9 HX   | DirectML EP(`iGPU`)      |  7.86         |               |               |                  |
+  | yolov8n  |  Ryzen AI 9 HX   | Vitis AI EP(`NPU`)        |  31.15        |               |               |                  |
+  | yolo11n  |  Ryzen AI 9 HX   | CPU EP(`CPU`)   |  26.22        |               |               |                  |
+  | yolo11n  |  Ryzen AI 9 HX   | DirectML EP(`iGPU`)      |  8.1          |               |               |                  |
+  | yolo11n  |  Ryzen AI 9 HX   | Vitis AI EP(`NPU`)        |  28.97        |               |               |                  |
+  | yolo12n  |  Ryzen AI 9 HX   | CPU EP(`CPU`)   |  32.63        |               |               |                  |
+  | yolo12n  |  Ryzen AI 9 HX   | DirectML EP(`iGPU`)      |  12.43        |               |               |                  |
+  | yolo12n  |  Ryzen AI 9 HX   | Vitis AI EP(`NPU`)        |  34.88        |               |               |                  |
