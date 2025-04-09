@@ -29,9 +29,9 @@ Genio is powered by **Arm Cortex-A**, **Arm GPU** and **MediaTek DLA**, providin
 <details>
 <summary>AMD Ryzen AI PC Module</summary>
 
-AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating the most powerful **Zen CPU** and **RDNA GPU**, capable of delivering up to 50 TOPs of AI performance.
+AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating the most powerful **Zen CPU**, **M iGPU** and **XDNA NPU**, capable of delivering up to 50 TOPs of AI performance.
 
-![](https://img.shields.io/badge/OS-Windows-orange) ![](https://img.shields.io/badge/Quark_Quantizer-latest-blue) ![](https://img.shields.io/badge/Vitis_AI_EP-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
+![](https://img.shields.io/badge/OS-Windows-orange) ![](https://img.shields.io/badge/Quark_Quantizer-latest-blue) ![](https://img.shields.io/badge/Vitis_AI_EP-latest-blue) ![](https://img.shields.io/badge/DirectML_EP-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
   * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
   * [Examples, Demos, Tutorials for Ryzen AI Software](https://ryzenai.docs.amd.com/en/latest/examples.html)
   * [AMD Quark Quantizer for Efficient AI Model Deployment](https://www.amd.com/en/developer/resources/technical-articles/amd-quark-quantizer-for-efficient-ai-model-deployment.html)
