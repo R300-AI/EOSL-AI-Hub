@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hailo AI Accelerator
-nav_order: 10
+nav_order: 30
 ---
 
 # Hailo AI Accelerator

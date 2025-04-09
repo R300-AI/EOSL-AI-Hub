@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "-　Step1. Setup Workstations"
-nav_order: 3
+title: "-　NeuronPilot"
+nav_order: 4
 ---
 
 # Installation Guide for Genio EVK

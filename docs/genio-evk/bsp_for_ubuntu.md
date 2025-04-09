@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "-　Step3. Install Packages"
+title: "-　BSPs for Ubuntu"
 nav_order: 5
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "-　Step2. Flash Genio Board"
-nav_order: 4
+title: "-　Flash Tools"
+nav_order: 3
 ---
 
 # Genio EVK Setup Guide

@@ -38,7 +38,7 @@ Genio 510/700 are ideal for tasks involving single vision-based models with comp
 
 The diverse chipset of this system provides extensive application potential, while also indicating that software developers will face a more complex development environment.
 
-First, you need to prepare a workstation for flashing the operating system onto the Genio EVK. This workstation must be an Ubuntu operating system with an x86 or amd64 processor architecture to correctly install and activate the Flash Tools. Secondly, if you wish to accelerate your deep learning models using MTK's DLA or VP, you may need to follow the [NeuronPilot Installation]() guide to additionally install NeuronPilot. This tool helps you compile TFLite-format models into the specific descriptor format required by the accelerator, enabling the use of deep learning accelerators (note that the supported descriptor formats vary depending on the version and model of the processor, and the target processor must be specified based on the board model during compilation). Alternatively, you can choose to use the [online version of NeuronPilot](https://app-aihub-neuronpilot.azurewebsites.net/) built by ITRI for the [MTK-Genio-Demo](https://github.com/R300-AI/MTK-genio-demo/tree/main), allowing you to independently perform simple runtime tests on the board.
+First, you need to prepare a workstation for flashing the operating system onto the Genio EVK. This workstation must be an Ubuntu operating system with an x86 or amd64 processor architecture to correctly install and activate the Flash Tools. Secondly, if you wish to accelerate your deep learning models using MTK's DLA or VP, you may need to follow the [NeuronPilot Installation]() guide to additionally install NeuronPilot. This tool helps you compile TFLite-format models into the specific descriptor format required by the accelerator, enabling the use of deep learning accelerators (note that the supported descriptor formats vary depending on the version and model of the processor, and the target processor must be specified based on the board model during compilation). Alternatively, you can choose to use the [Online Version of NeuronPilot](https://app-aihub-neuronpilot.azurewebsites.net/) built by ITRI for the [MTK-Genio-Demo](https://github.com/R300-AI/MTK-genio-demo/tree/main), allowing you to independently perform simple runtime tests on the board.
 
 <div align="center">
 <img src="assets/images/pages/genio_510_demonstration_workflow.png" width="780"/>
@@ -48,9 +48,9 @@ The diagram above illustrates the complete system resources and workflow. Once t
 
 <br>
 <div align="right">
-<a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk/step1.html"> 
+<a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk/neuronPilot_installation.html"> 
 
-[ Next >> Step1. Setup Tools ]
+[ Next >> Step1. NeuronPilot Installation ]
   
 </a>
 </div>
