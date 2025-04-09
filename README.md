@@ -41,8 +41,8 @@ The MediaTek Genio module is a high-performance platform designed for AIoT appli
 AMD Ryzen AI processors are cutting-edge SoCs designed for AI PCs, integrating the powerful **Zen CPU**, **RDNA iGPU**, and **XDNA NPU**. With seamless multi-chip synchronization, they deliver up to **50 TOPs** of AI performance, making them ideal for high-performance AI workloads in desktop and edge computing environments.
 
 ![](https://img.shields.io/badge/OS-Windows-orange) ![](https://img.shields.io/badge/Quark_Quantizer-latest-blue) ![](https://img.shields.io/badge/Vitis_AI_EP-latest-blue) ![](https://img.shields.io/badge/DirectML_EP-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
-  * [Ryzen AI Software: GPU and NPU Support](https://ryzenai.docs.amd.com/en/latest/index.html)
   * [ZenDNN: Accelerated Inference Library Optimized for AMD “Zen” CPUs](https://www.amd.com/zh-tw/developer/zendnn.html)
+  * [Ryzen AI Software: GPU and NPU Support](https://ryzenai.docs.amd.com/en/latest/index.html)
   * [AMD Quark Quantizer: Efficient AI Model Deployment](https://www.amd.com/en/developer/resources/technical-articles/amd-quark-quantizer-for-efficient-ai-model-deployment.html)
 
 </details>
