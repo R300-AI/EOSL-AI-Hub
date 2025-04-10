@@ -38,13 +38,21 @@ Genio 510/700 are ideal for tasks involving single vision-based models with comp
 
 The diverse chipset of this system provides extensive application potential, while also indicating that software developers will face a more complex development environment.
 
-First, you need to prepare a workstation for flashing the operating system onto the Genio EVK. This workstation must be an Ubuntu operating system with an x86 or amd64 processor architecture to correctly install and activate the Flash Tools. Secondly, if you wish to accelerate your deep learning models using MTK's DLA or VP, you may need to follow the [NeuronPilot Installation]() guide to additionally install NeuronPilot. This tool helps you compile TFLite-format models into the specific descriptor format required by the accelerator, enabling the use of deep learning accelerators (note that the supported descriptor formats vary depending on the version and model of the processor, and the target processor must be specified based on the board model during compilation). Alternatively, you can choose to use the [Online Version of NeuronPilot](https://app-aihub-neuronpilot.azurewebsites.net/) built by ITRI for the [MTK-Genio-Demo](https://github.com/R300-AI/MTK-genio-demo/tree/main), allowing you to independently perform simple runtime tests on the board.
+* First, you need to prepare a workstation for flashing the operating system onto the Genio EVK. This workstation must be an Ubuntu operating system with an x86 or amd64 processor architecture to correctly install and activate the Flash Tools. 
+* Secondly, if you wish to accelerate your deep learning models using MTK's DLA or VP, you may need to follow the [NeuronPilot Installation]() guide to additionally install NeuronPilot. 
+* This tool helps you compile TFLite-format models into the specific descriptor format required by the accelerator, enabling the use of deep learning accelerators (note that the supported descriptor formats vary depending on the version and model of the processor, and the target processor must be specified based on the board model during compilation). 
+* Alternatively, you can choose to use the [Online Version of NeuronPilot](https://app-aihub-neuronpilot.azurewebsites.net/) built by ITRI for the [MTK-Genio-Demo](https://github.com/R300-AI/MTK-genio-demo/tree/main), allowing you to independently perform simple runtime tests on the board.
 
 <div align="center">
 <img src="assets/images/pages/genio_510_demonstration_workflow.png" width="780"/>
 </div>
 
-The diagram above illustrates the complete system resources and workflow. Once the board is properly set up, model inference can be performed using Native Frameworks, ArmNN, or NeuronRT. These environments can be quickly configured by following the guidelines provided in this document. **Native Frameworks (TFLite)** primarily rely on the CPU for inference. **ArmNN** accelerates inference by optimizing both the CPU and GPU, offering faster and more efficient processing compared to running inference without ArmNN, though it requires more memory. **NeuronRT** utilizes the MediaTek Deep Learning Accelerator (MDLA) or Vision Processor (VP) to achieve high-performance inference. For practical examples and benchmarks, refer to the [Model Zoo](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo).
+The diagram above illustrates the complete system resources and workflow. Once the board is properly set up, model inference can be performed using Native Frameworks, ArmNN, or NeuronRT. These environments can be quickly configured by following the guidelines provided in this document. 
+* **Native Frameworks (TF, PyTorch...etc)** primarily rely on the CPU for inference.
+* **ArmNN (TFLite)** accelerates inference by optimizing both the CPU and GPU, offering faster and more efficient processing compared to running inference without ArmNN. 
+* **NeuronRT (TFLite > DLA)** utilizes the MediaTek Deep Learning Accelerator (MDLA) or Vision Processor (VP) to achieve high-performance inference.
+
+For practical examples and benchmarks, refer to the [Model Zoo](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo).
 
 <br>
 <div align="right">
