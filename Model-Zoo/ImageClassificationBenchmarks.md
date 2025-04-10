@@ -14,6 +14,9 @@
 
   | Model   |     Chipsets      |    Framework         |    Speed (ms) |   Memory (GB) |  Power (Watt) |     Temp (°C)    |
   |---------|-------------------|----------------------|---------------|---------------|---------------|------------------|
+  | resnet50  |  Ryzen AI 9 HX   | CPU EP(`CPU`)             |  10.79        |               |               |                  |
+  | resnet50  |  Ryzen AI 9 HX   | DirectML EP(`iGPU`)       |  7.39         |               |               |                  |
+  | resnet50  |  Ryzen AI 9 HX   | Vitis AI EP(`NPU`)        |  14.61        |               |               |                  |
   | yolov8n-cls  |  Ryzen AI 9 HX   | CPU EP(`CPU`)             |  11.76        |               |               |                  |
   | yolov8n-cls  |  Ryzen AI 9 HX   | DirectML EP(`iGPU`)       |  3.83         |               |               |                  |
   | yolov8n-cls  |  Ryzen AI 9 HX   | Vitis AI EP(`NPU`)        |  15.0         |               |               |                  |
