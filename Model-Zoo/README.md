@@ -15,3 +15,4 @@ In our Python Demo examples, developers will find a variety of pre-trained model
 ## Language Process
 * **Text To Text ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/TextToTextBenchmarks.md))**     | `Raspberry Pi`, `Genio`, `Ryzen`
 * **Voice To Text ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/VoiceToTextBenchmarks.md))**   | `Raspberry Pi`, `Genio`, `Ryzen`
+* **Text To Speech ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/TextToSpeechBenchmarks.md))**   | `Genio`, `Ryzen`
