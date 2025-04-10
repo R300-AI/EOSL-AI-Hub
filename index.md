@@ -16,9 +16,9 @@ nav_order: 1
 ## **Development Flow Overview**
 
 <div style="margin-left: 20px;">
-<p>To support various types of AI tasks, users can pre-select base models from GitHub projects, open-source frameworks, or train their desired models using PyTorch or TensorFlow.</p>
+<p>To support various types of AI tasks, users can pre-select base models from GitHub projects, open-source frameworks, or train their desired models using PyTorch or TensorFlow. These models rely on self-built workstations, servers, or cloud-hosted data centers during the design and development phases. 
 
-<p>These models rely on self-built workstations, servers, or cloud-hosted data centers during the design and development phases. In this regard, ITRI provides resources such as [Azure AI Foundry](https://azure.microsoft.com/en-us/products/machine-learning) and [AMD Instinct Cluster](https://www.aita.org.tw/News/news_more?id=82a8da71e7cc4cf6acb657a789165822) to help you easily adapt and develop your products without incurring significant infrastructure maintenance costs. Additionally, you can quickly deploy your innovative applications by integrating pre-built models and frameworks from the open-source community (e.g., YOLO, LLaMA, Whisper).</p>
+In this regard, ITRI provides resources such as <a href="https://azure.microsoft.com/en-us/products/machine-learning">Azure AI Foundry</a> and <a href="https://www.aita.org.tw/News/news_more?id=82a8da71e7cc4cf6acb657a789165822">AMD Instinct Cluster</a> to help you easily adapt and develop your products without incurring significant infrastructure maintenance costs. Additionally, you can quickly deploy your innovative applications by integrating pre-built models and frameworks from the open-source community (e.g., YOLO, LLaMA, Whisper).</p>
 </div>
 
 <div style="margin-left: 20px;">
