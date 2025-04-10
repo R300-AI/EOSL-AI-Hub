@@ -2,4 +2,4 @@
   
   | Model            |  Chipsets  |    Framework              |    Speed (--)   |   Memory (GB) |  Power (Watt) |     Temp (°C)    |
   |------------------|------------|---------------------------|------------------|--------------|---------------|------------------|
-  | edge-tts         |  Genio-510 | Microsoft(`Cortex-A78`)   |                  |              |               |                  |
+  | edge-tts         |  Genio-510 | PyPI(`Cortex-A78`)   |                  |              |               |                  |
