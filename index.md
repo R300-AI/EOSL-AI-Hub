@@ -9,6 +9,49 @@ nav_order: 1
 
 <br>ITRI AI Hub offers simple, fast, and commercialized Edge AI implementation solutions for enterprises and developers. Before selecting a system, we recommend evaluating which devices are suitable for your applications based on model type, computing power, memory, and energy efficiency. The diagram below summarizes the memory and computing power distribution of devices we selected, helping you compare them more intuitively with Model Zoo, open-source communities, or other custom models.
 
+<div>
+    <canvas id="scatterChart" width="400" height="200"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('scatterChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'scatter',
+        data: {
+            datasets: [{
+                label: 'Sample Data',
+                data: [
+                    { x: 1, y: 2 },
+                    { x: 2, y: 3 },
+                    { x: 3, y: 7 },
+                    { x: 4, y: 5 },
+                    { x: 5, y: 8 }
+                ],
+                backgroundColor: 'rgba(75, 192, 192, 0.6)'
+            }]
+        },
+        options: {
+            scales: {
+                x: {
+                    type: 'linear',
+                    position: 'bottom',
+                    title: {
+                        display: true,
+                        text: 'X Axis'
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Y Axis'
+                    }
+                }
+            }
+        }
+    });
+</script>
+
 <div align="center">
 <img src="docs/assets/images/pages/metric_of_all_devices.png" width="760"/>
 </div>
