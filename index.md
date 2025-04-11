@@ -47,10 +47,13 @@ To get started, first obtain an Evaluation Kit from a retailer or agent and foll
 Next, use the benchmark data provided by the <a href="https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo">Model Zoo</a> to analyze the performance of each chip and determine if it meets your application requirements. Finally, leverage the included testing tools to evaluate your model's performance on different processing units across various Chiplets, gaining a deeper understanding of AI acceleration implementation.</p>
 </div>
 
-> [注意]
-> CPU
-> GPU
-> NPU
+> [**NOTE**] 以下是不同處理單元的比較表：<br>
+>
+> | 處理單元 | 描述               |
+> |----------|--------------------|
+> | CPU      | 通用處理器，適合執行多樣化任務 |
+> | GPU      | 圖形處理器，擅長並行計算       |
+> | NPU      | 神經網路處理器，專為 AI 加速設計 |
 
 ## **開源社群精選資源**
 ### Data Preparation
