@@ -27,29 +27,23 @@ AI on Chips enables various types of electronic devices to efficiently execute A
 </div><br>
 
 
-<strong>如何開始使用小晶片?</strong>
+<strong>How to Get Started with Chiplets?</strong>
 <div style="margin-left: 20px;">
-To ensure that the model can execute efficiently on embedded systems,
-<ul></ul>
-</div>
+To ensure that models can run efficiently on embedded systems, AI developers must identify the hardware specifications and architecture of the chips. This is essential to fully leverage the application performance of advanced AI chips. At AI Hub, we provide introductory guides for the following types of Chiplets, including system configuration methods and model deployment tutorials:
 
-<strong>Step3. Inference</strong>
-<div style="margin-left: 20px;">
-Follow the instructions to configure the engine and operating environment for your specified chips. This will allow you to deploy binary files and perform computations on the system.
 <ul>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kits</a></li>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/hailo.html">Hailo AI Accelerator</a></li>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/ryzen.html">Ryzen AI Processor</a></li>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/jetson-evk.html">Jetson Evaluation Kits</a></li>
+    <li>Raspberry Pi Evaluation Kit</li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kit</a></li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/ryzen.html">Ryzen AI Evaluation Kit</a></li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/jetson-evk.html">Jetson Evaluation Kit</a></li>
+    <li>WiseEye Visual AI Accelerator</li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/hailo.html">Hailo Visual AI Accelerator</a></li>
 </ul>
-</div>
-</div>
 
-Here, the ITRI AI Hub plays a crucial role by offering comprehensive development resources and tutorials for each stage of the process. This support enables enterprises and individual users to efficiently and quickly validate their new AI applications. For more information, please visit the "Developer Support" section.
-
+在這些 Chiplets 上分別搭載了不同的硬體與軟體架構，您可以從本文件中的其他頁面中獲取相關資訊。
 </div>
 
-## **How to Build Your Own Application?**
+## **開源社群精選資源**
 ### Data Preparation
 * [Label Studio: Open Source Data Labeling](https://labelstud.io/)
 * [Albumentations: fast and flexible image augmentations](https://albumentations.ai/)
