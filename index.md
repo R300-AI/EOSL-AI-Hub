@@ -48,15 +48,6 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 4. Finally, use the provided testing tools to assess your model's performance on different processing units across various Chiplets, to gain detailed insights into AI acceleration techniques and optimization strategies.</p>
 </div>
 
-##### NOTE
-
-> [**NOTE**] It is essential to recognize that each chip vendor operates within its own distinct hardware and software ecosystem. Nevertheless, the following framework is widely adopted by most AI developers, providing a systematic approach to efficiently evaluate and select the most suitable chip:
->
->   | Processing Unit | Memory Usage | Supported Computing Operators  | Ideal Use Case                     | Notes                                                                 |
->   |-----------------|--------------|------------------------|-------------------------------------|----------------------------------------------------------------------|
->   | CPU             | Medium       | General-purpose logic  | Control flow and non-parallel ML tasks | Executes general-purpose code directly. The performance of ML models can be further enhanced using vendor-optimized libraries (e.g., OpenVINO, ZenDNN, Kleidi AI...). |
->   | GPU             | High         | Graphics rendering and parallel computing | Matrix multiplication and neural network inference | Requires the installation of appropriate graphics drivers (e.g., CUDA for NVIDIA GPUs, ROCm for AMD GPUs) and the use of related execution provider (e.g., TensorRT) to utilize GPU computing resources. |
->   | NPU             | Low          | Specialized AI operators | Low-power, high-efficiency neural network inference | Requires the installation of drivers and execution providers. Additionally, vendor-provided quantization tools are often necessary to compile models, as these tools map a subset of valid operators to NPU computing resources for optimized performance. |
 
 ## **Open-Source Community Highlights**
 ### Data Preparation
