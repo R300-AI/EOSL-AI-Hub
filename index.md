@@ -49,16 +49,16 @@ At AI Hub, we provide comprehensive guides for various types of Chiplets, includ
 3. Next, utilize the benchmark data available in the [Model Zoo](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo) to evaluate the performance of each chip and determine its suitability for your application needs.
 4. Finally, use the provided testing tools to assess your model's performance on different processing units across various Chiplets, to gain detailed insights into AI acceleration techniques and optimization strategies.
 
-> [**NOTE**] It is essential to recognize that each chip vendor operates within its own distinct hardware and software ecosystem. Nevertheless, the following framework is widely adopted by most AI developers, providing a systematic approach to efficiently evaluate and select the most suitable chip:
+> [**NOTEe**] It is essential to recognize that each chip vendor operates within its own distinct hardware and software ecosystem. Nevertheless, the following framework is widely adopted by most AI developers, providing a systematic approach to efficiently evaluate and select the most suitable chip:
 >
 > <table>
 >   <thead>
 >     <tr>
 >       <th style="width: 15%;">Processing Unit</th>
 >       <th style="width: 10%;">Memory Usage</th>
->       <th style="width: 25%;">Supported Computing Operators</th>
+>       <th style="width: 20%;">Supported Computing Operators</th>
 >       <th style="width: 20%;">Ideal Use Case</th>
->       <th style="width: 30%;">Notes</th>
+>       <th style="width: 35%;">Notes</th>
 >     </tr>
 >   </thead>
 >   <tbody>
