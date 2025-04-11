@@ -51,7 +51,7 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 
 > [**NOTE**] It is important to understand that different chip vendors have unique software and hardware ecosystems. Here, we provide some considerations for delegating tasks to different processing units:<br>
 >
->   | Processing Unit | Memory Usage | Computing Unit         | Ideal Use Case                     | Notes                                                                 |
+>   | Processing Unit | Memory Usage | Computing Operators            | Ideal Use Case                     | Notes                                                                 |
 >   |-----------------|--------------|------------------------|-------------------------------------|----------------------------------------------------------------------|
 >   | CPU             | Medium       | General-purpose logic  | Control flow and non-parallel ML tasks | Can directly execute general-purpose code. Performance of ML models can be further optimized using vendor-provided libraries (e.g., OpenVINO, ZenDNN, Kleidi AI, etc.). |
 >   | GPU             | High         | Graphics rendering and parallel computing | Matrix multiplication and neural network inference | Requires installation of graphics drivers (e.g., CUDA, ROCm) and the use of related execution providers (e.g., TensorRT) to utilize GPU computing resources. |
