@@ -51,12 +51,40 @@ At AI Hub, we provide comprehensive guides for various types of Chiplets, includ
 
 > [**NOTE**] It is essential to recognize that each chip vendor operates within its own distinct hardware and software ecosystem. Nevertheless, the following framework is widely adopted by most AI developers, providing a systematic approach to efficiently evaluate and select the most suitable chip:
 >
->   | Processing Unit | Memory Usage | Supported Computing Operators  | Ideal Use Case                     | Notes                                                                 |
->   |-----------------|--------------|------------------------|-------------------------------------|----------------------------------------------------------------------|
->   | CPU             | Medium       | General-purpose logic  | Control flow and non-parallel ML tasks | Executes general-purpose code directly. The performance of ML models can be further enhanced using vendor-optimized libraries (e.g., OpenVINO, ZenDNN, Kleidi AI...). |
->   | GPU             | High         | Graphics rendering and parallel computing | Matrix multiplication and neural network inference | Requires the installation of appropriate graphics drivers (e.g., CUDA for NVIDIA GPUs, ROCm for AMD GPUs) and the use of related execution provider (e.g., TensorRT) to utilize GPU computing resources. |
->   | NPU             | Low          | Specialized AI operators | Low-power, high-efficiency neural network inference | Requires the installation of drivers and execution providers. Additionally, vendor-provided quantization tools are often necessary to compile models, as these tools map a subset of valid operators to NPU computing resources for optimized performance. |
-
+> <table>
+>   <thead>
+>     <tr>
+>       <th style="width: 15%;">Processing Unit</th>
+>       <th style="width: 10%;">Memory Usage</th>
+>       <th style="width: 25%;">Supported Computing Operators</th>
+>       <th style="width: 20%;">Ideal Use Case</th>
+>       <th style="width: 30%;">Notes</th>
+>     </tr>
+>   </thead>
+>   <tbody>
+>     <tr>
+>       <td>CPU</td>
+>       <td>Medium</td>
+>       <td>General-purpose logic</td>
+>       <td>Control flow and non-parallel ML tasks</td>
+>       <td>Executes general-purpose code directly. The performance of ML models can be further enhanced using vendor-optimized libraries (e.g., OpenVINO, ZenDNN, Kleidi AI...).</td>
+>     </tr>
+>     <tr>
+>       <td>GPU</td>
+>       <td>High</td>
+>       <td>Graphics rendering and parallel computing</td>
+>       <td>Matrix multiplication and neural network inference</td>
+>       <td>Requires the installation of appropriate graphics drivers (e.g., CUDA for NVIDIA GPUs, ROCm for AMD GPUs) and the use of related execution provider (e.g., TensorRT) to utilize GPU computing resources.</td>
+>     </tr>
+>     <tr>
+>       <td>NPU</td>
+>       <td>Low</td>
+>       <td>Specialized AI operators</td>
+>       <td>Low-power, high-efficiency neural network inference</td>
+>       <td>Requires the installation of drivers and execution providers. Additionally, vendor-provided quantization tools are often necessary to compile models, as these tools map a subset of valid operators to NPU computing resources for optimized performance.</td>
+>     </tr>
+>   </tbody>
+> </table>
 
 ## **Open-Source Community Highlights**
 ### Data Preparation
