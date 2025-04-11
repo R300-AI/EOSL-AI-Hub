@@ -48,7 +48,6 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 4. Finally, use the provided testing tools to assess your model's performance on different processing units across various Chiplets, to gain detailed insights into AI acceleration techniques and optimization strategies.</p>
 </div>
 
-
 > [**NOTE**] It is essential to recognize that each chip vendor operates within its own distinct hardware and software ecosystem. Nevertheless, the following framework is widely adopted by most AI developers, providing a systematic approach to efficiently evaluate and select the most suitable chip: <br>
 >
 >   | Processing Unit | Memory Usage | Supported Computing Operators  | Ideal Use Case                     | Notes                                                                 |
