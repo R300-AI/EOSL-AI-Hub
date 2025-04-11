@@ -31,12 +31,12 @@ AI on Chips enables various types of electronic devices to efficiently execute A
 <div style="margin-left: 20px;">
 To ensure that models can run efficiently on embedded systems, AI developers must identify the hardware specifications and architecture of the chips. This is essential to fully leverage the application performance of advanced AI chips，您可以從本文件中的其他頁面中獲取相關資訊。
 <ul>
-    <li>Raspberry Pi Evaluation Kit</li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Raspberry Pi Evaluation Kit</li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kit</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/ryzen.html">Ryzen AI Evaluation Kit</a></li>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/jetson-evk.html">Jetson Evaluation Kit</a></li>
-    <li>WiseEye Visual AI Accelerator</li>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/hailo.html">Hailo Visual AI Accelerator</a></li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Jetson Evaluation Kit</a></li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">WiseEye Visual AI Accelerator (MCU)</li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Hailo Visual AI Accelerator (MCU)</a></li>
 </ul>
 
 At AI Hub, we provide introductory guides for the following types of Chiplets, including system configuration methods and model deployment tutorials:
