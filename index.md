@@ -24,23 +24,23 @@ In this regard, ITRI provides online resources such as <a href="https://azure.mi
 <strong>AI on Chips: Enabling the Future of AI Everywhere</strong>
 <div style="margin-left: 20px;">
 AI on Chips enables various types of electronic devices to efficiently execute AI models, offering unparalleled opportunities to realize the vision of AI Everywhere. To achieve this, integrating CPUs, GPUs, and NPUs into Chiplets plays a critical role, overcoming traditional performance and power consumption bottlenecks. For vendor-specific solutions and Taiwan's self-developed Silicon IP, ITRI provides a pilot production line for heterogeneous integration with small-volume, diverse packaging. This process fully covers the design, manufacturing, verification, and system integration testing of Chiplets, helping enterprises and academia quickly enter the market and build innovative applications on top of it.
-</div><br>
+</div>
 
 
 <strong>How to Get Started with Chiplets?</strong>
 <div style="margin-left: 20px;">
 To ensure that models can run efficiently on embedded systems, AI developers must identify the hardware specifications and architecture of the chips. This is essential to fully leverage the application performance of advanced AI chips. You can find more information on other pages of this document:
 <ul>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Raspberry Pi Board</li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Raspberry Pi Board</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Board</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/ryzen.html">Ryzen AI Board</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Jetson Board</a></li>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">WiseEye Visual AI Accelerator (MCU)</li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">WiseEye Visual AI Accelerator (MCU)</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Hailo Visual AI Accelerator (MCU)</a></li>
 </ul>
 
-在AI Hub，我們提供以上類型的Chiplet入門指南，包括系統配置方法和模型部署教程。 首先，您需先通過Retailer或Agent取得Evaluation Kit，然後依照官方文件的指示及需求配置工作環境及系統，除此之外，這個Developer Zone。
-
+<div style="margin-left: 20px;">
+At AI Hub, we provide introductory guides for the above types of Chiplets, including system configuration methods and model deployment tutorials. First, you need to obtain an Evaluation Kit through a retailer or agent and follow the official documentation to configure the installation environment and operating system according to your requirements. Additionally, this Developer Zone offers exclusive quick-start guides and shared resources to help you complete this process efficiently. Second, you can analyze the performance of each chip using the benchmark data provided by the <a href="https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo">Model Zoo</a> to determine whether it meets your application requirements. You can then use the included testing tools to evaluate your model's performance on different processing units and further understand the process of implementing AI acceleration.
 </div>
 
 ## **開源社群精選資源**
