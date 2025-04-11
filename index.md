@@ -53,7 +53,7 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 >
 >   | Processing Unit | Memory Usage | Computing Unit         | Ideal Use Case                     | Notes                                                                 |
 >   |-----------------|--------------|------------------------|-------------------------------------|----------------------------------------------------------------------|
->   | CPU             | Medium       | General-purpose logic  | Control flow and general non-parallel ML tasks | Does not require additional drivers to execute code directly. Performance of ML models can be further optimized using vendor-provided libraries (e.g., OpenVINO, ZenDNN, Kleidi AI, etc.). |
+>   | CPU             | Medium       | General-purpose logic  | Control flow and non-parallel ML tasks | Can directly execute general-purpose code. Performance of ML models can be further optimized using vendor-provided libraries (e.g., OpenVINO, ZenDNN, Kleidi AI, etc.). |
 >   | GPU             | High         | Graphics rendering and parallel computing | Matrix multiplication and neural network inference | Requires installation of graphics drivers (e.g., CUDA, ROCm) and the use of related execution providers (e.g., TensorRT) to utilize GPU computing resources. |
 >   | NPU             | Low          | Specialized AI operators | Low-power, high-efficiency neural network inference | Requires installation of drivers and execution providers. Additionally, vendor-provided quantization tools are typically needed to compile models and map operators to NPU computing resources. |
 
