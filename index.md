@@ -37,8 +37,7 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Jetson Board</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">WiseEye Visual AI Accelerator (MCU)</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Hailo Visual AI Accelerator (MCU)</a></li>
-</ul>
-<div style="margin-left: 20px;">
+</ul></div>
 
 ## **Open-Source Community Highlights**
 
