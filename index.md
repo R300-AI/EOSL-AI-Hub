@@ -7,7 +7,7 @@ nav_order: 1
 # Welcome to ITRI AI Hub Tutorials
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
-<br>ITRI AI Hub offers simple, fast, and commercialized Edge AI implementation solutions for enterprises and developers. Before selecting a system, we recommend evaluating which devices are suitable for your applications based on model type, computing power, memory, and energy efficiency. The diagram below summarizes the memory and computing power distribution of devices we selected, helping you compare them more intuitively with <a href="https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo">Model Zoo</a>, open-source communities, or other custom models.
+<br>ITRI AI Hub provides simple, fast, and commercialized Edge AI implementation solutions for enterprises and developers. Before selecting a system, we recommend evaluating which devices are best suited for your applications based on factors such as model type, computing power, memory, and energy efficiency. The diagram below summarizes the memory and computing power distribution of the devices we have selected, helping you intuitively compare them with a variety of Model Zoo options, open-source community models, or other custom models.
 
 <div align="center">
 <img src="docs/assets/images/pages/metric_of_all_devices.png" width="760"/>
@@ -29,7 +29,7 @@ AI on Chips enables various types of electronic devices to efficiently execute A
 
 <strong>How to Get Started with Chiplets?</strong>
 <div style="margin-left: 20px;">
-To ensure that models can run efficiently on embedded systems, AI developers must identify the hardware specifications and architecture of the chips. This is essential to fully leverage the application performance of advanced AI chips，您可以從本文件中的其他頁面中獲取相關資訊。
+To ensure that models can run efficiently on embedded systems, AI developers must identify the hardware specifications and architecture of the chips. This is essential to fully leverage the application performance of advanced AI chips. You can find more information on other pages of this document:
 <ul>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Raspberry Pi Evaluation Kit</li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kit</a></li>
@@ -39,8 +39,10 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Hailo Visual AI Accelerator (MCU)</a></li>
 </ul>
 
-At AI Hub, we provide introductory guides for the following types of Chiplets, including system configuration methods and model deployment tutorials:
-在這些 Chiplets 上分別搭載了不同的硬體與軟體架構
+在AI Hub，我們提供以上類型的Chiplet入門指南，包括系統配置方法和模型部署教程： 
+
+
+在這些Chiplet上分別裝載了不同的硬件與軟體架構
 </div>
 
 ## **開源社群精選資源**
