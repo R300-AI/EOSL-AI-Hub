@@ -48,14 +48,13 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 4. Finally, use the provided testing tools to assess your model's performance on different processing units across various Chiplets, gaining deeper insights into AI acceleration and optimization.</p>
 </div>
 
-> [**NOTE**] 以下是不同處理單元的比較表：<br>
+> [**NOTE**] 以下是不同處理單元的比較表（適用場景為最理想的使用方式，非唯一選擇）：<br>
 >
-> | Delegation | Memory Usage | 特性與適用場景                                   | 注意事項                                                     |
-> |------------|--------------|-------------------------------------------------|--------------------------------------------------------------|
-> | CPU        | 中           | 通用處理器，適合執行多樣化任務                     | 無需額外驅動，可以進一步透過製造商的Library做效能最佳化          |
-> | GPU        | 高           | 擅長圖形處理，適用於高效能需求的模型推論            | 需安裝驅動程式 (Driver)                                       |
-> | NPU        | 低           | 專為 AI 加速設計，適用於低功耗、高效能的嵌入式應用  | 通常需要離線編譯 (Offline Compilation) 將模型遷移到晶片上        |
-
+> | 處理單元 | Memory Usage | 特性  | 最理想的適用場景               | 注意事項                                                     |
+> |------|-----|-------------------|-------------------------------|--------------------------------------------------------------|
+> | CPU  | 中  | 通用邏輯運算能力    | 流程控制與一般 ML 的計算需求    | 無需安裝額外驅動程式，但可透過製造商的 Library 進一步優化邏輯陣列的效能（如：OpenVINO, ZenDNN...） |
+> | GPU  | 高  | 圖形、同步運算能力  | 矩陣處理與神經網路運算          | 需安裝驅動程式 (CUDA, ROCm)，適合需要大量計算資源的應用          |
+> | NPU  | 低  | 神經網路運算能力    | 低功耗、高效能的神經網路運算    | 需進行離線編譯 (Offline Compilation) 將模型遷移至晶片上         |
 
 ## **開源社群精選資源**
 ### Data Preparation
