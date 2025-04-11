@@ -50,13 +50,13 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 
 > [**NOTE**] 以下是不同處理單元的比較表（適用場景為最理想的使用方式，非唯一選擇）：<br>
 >
-> | 處理單元 | Memory Usage | 特性  | 最理想的適用場景               | 注意事項                                                     |
-> |------|-----|-------------------|-------------------------------|--------------------------------------------------------------|
-> | CPU  | 中  | 通用邏輯運算能力    | 流程控制與一般 ML 的計算需求    | 無需安裝額外驅動程式，但可透過製造商的 Library 進一步優化邏輯陣列的效能（如：OpenVINO, ZenDNN...） |
-> | GPU  | 高  | 圖形、同步運算能力  | 矩陣處理與神經網路運算          | 需安裝驅動程式 (CUDA, ROCm)，適合需要大量計算資源的應用          |
-> | NPU  | 低  | 神經網路運算能力    | 低功耗、高效能的神經網路運算    | 需進行離線編譯 (Offline Compilation) 將模型遷移至晶片上         |
+> | 委託處理器  | Memory Usage       | 運算單元  | 最理想的適用場景   | 注意事項                                                     |
+> |------|-----|--------------------|------------------------------|--------------------------------------------------------------|
+> | CPU  | 中  | 通用邏輯運算        | 流程控制與一般 ML 的計算需求   | 無需安裝額外驅動程式，但可透過製造商的 Library 進一步優化邏輯陣列的效能（如：OpenVINO, ZenDNN...） |
+> | GPU  | 高  | 圖形運算與同步運算   | 矩陣乘法與神經網路推論        | 需安裝驅動程式 (如：CUDA, ROCm)，適合需要大量計算資源的應用          |
+> | NPU  | 低  | 特定的AI運算        | 低功耗、高效能的神經網路推論   | 需進行離線編譯 (Offline Compilation) 將模型遷移至晶片上         |
 
-## **開源社群精選資源**
+## **Open-Source Community Highlights**
 ### Data Preparation
 * [Label Studio: Open Source Data Labeling](https://labelstud.io/)
 * [Albumentations: fast and flexible image augmentations](https://albumentations.ai/)
