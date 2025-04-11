@@ -39,7 +39,7 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Hailo Visual AI Accelerator (MCU)</a></li>
 </ul>
 
-在AI Hub，我們提供以上類型的Chiplet入門指南，包括系統配置方法和模型部署教程。 首先，您需先通過Retailer或Agent取得Evaluation Kit
+在AI Hub，我們提供以上類型的Chiplet入門指南，包括系統配置方法和模型部署教程。 首先，您需先通過Retailer或Agent取得Evaluation Kit，然後依照官方文件的指示及需求配置工作環境及系統，除此之外，這個Developer Zone。
 
 </div>
 
