@@ -20,7 +20,7 @@
   | yolov5n  |  Ryzen AI 9 HX   | Vitis AI EP(`NPU`)        |  15.81        |               |               |                  |
   | yolov8n  |  Ryzen AI 9 HX   | CPU EP(`CPU`)   |  29.34        |               |               |                  |
   | yolov8n  |  Ryzen AI 9 HX   | DirectML EP(`iGPU`)      |  7.86         |               |               |                  |
-  | yolov8n  |  Ryzen AI 9 HX   | Vitis AI EP(`NPU`)        |  18.62        |               |               |                  |
+  | yolov8n  |  Ryzen AI 9 HX   | Vitis AI EP(`CPU()/1%)`+ `NPU(99%)`)        |  18.62        |               |               |                  |
   | yolo11n  |  Ryzen AI 9 HX   | CPU EP(`CPU`)   |  26.22        |               |               |                  |
   | yolo11n  |  Ryzen AI 9 HX   | DirectML EP(`iGPU`)      |  8.1          |               |               |                  |
   | yolo11n  |  Ryzen AI 9 HX   | Vitis AI EP(`NPU`)        |  28.97        |               |               |                  |
