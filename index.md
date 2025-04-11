@@ -13,7 +13,7 @@ nav_order: 1
 <img src="docs/assets/images/pages/metric_of_all_devices.png" width="760"/>
 </div>
 
-## **Development Flow Overview**
+## **Overview**
 
 <div style="margin-left: 20px;">
 <p>To support various types of AI tasks, users can pre-select base models from GitHub projects, open-source frameworks, or train their desired models using PyTorch or TensorFlow. These models rely on self-built workstations, servers, or cloud-hosted data centers during the design and development phases. 
@@ -40,7 +40,7 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 </ul>
 </div>
 
-## **Open-Source Community Highlights**
+## **Development Flow**
 
 At AI Hub, we provide comprehensive guides for various types of Chiplets, including system configuration methods and model deployment tutorials.
 
