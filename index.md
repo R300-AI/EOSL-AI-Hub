@@ -42,18 +42,17 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 <div style="margin-left: 20px;">
 <p>At AI Hub, we provide introductory guides for various types of Chiplets, covering system configuration methods and model deployment tutorials. 
 
-To get started, first obtain an Evaluation Kit from a retailer or agent and follow the official documentation to set up the installation environment and operating system based on your needs. This Developer Zone also offers quick-start guides and shared resources to help streamline the setup process. 
-
-Next, use the benchmark data provided by the <a href="https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo">Model Zoo</a> to analyze the performance of each chip and determine if it meets your application requirements. Finally, leverage the included testing tools to evaluate your model's performance on different processing units across various Chiplets, gaining a deeper understanding of AI acceleration implementation.</p>
+To get started, first obtain an Evaluation Kit from a retailer or agent and follow the official documentation to set up the installation environment and operating system based on your needs. This Developer Zone also offers quick-start guides and shared resources to help streamline the setup process. Next, use the benchmark data provided by the <a href="https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo">Model Zoo</a> to analyze the performance of each chip and determine if it meets your application requirements. Finally, leverage the included testing tools to evaluate your model's performance on different processing units across various Chiplets, gaining a deeper understanding of AI acceleration implementation.</p>
 </div>
 
 > [**NOTE**] 以下是不同處理單元的比較表：<br>
 >
-> | 處理單元 | Memory Usage | 特性與適用場景                                   | 注意事項                          |
-> |----------|--------------|------------------------------------------------|-----------------------------------|
-> | CPU      | 中           | 通用處理器，適合執行多樣化任務                     | 無需額外驅動，適合輕量化應用         |
-> | GPU      | 高           | 擅長並行計算，適用於高效能需求的模型推論             | 需安裝驅動程式 (Driver)            |
-> | NPU      | 低           | 專為 AI 加速設計，適用於低功耗、高效能的嵌入式應用     | 通常需要離線編譯 (Offline Compilation) 將模型遷移到晶片上 |
+> | Delegation | Memory Usage | 特性與適用場景                                   | 注意事項                                                     |
+> |------------|--------------|-------------------------------------------------|--------------------------------------------------------------|
+> | CPU        | 中           | 通用處理器，適合執行多樣化任務                     | 無需額外驅動，可以進一步透過製造商的Library做效能最佳化          |
+> | GPU        | 高           | 擅長圖形處理，適用於高效能需求的模型推論            | 需安裝驅動程式 (Driver)                                       |
+> | NPU        | 低           | 專為 AI 加速設計，適用於低功耗、高效能的嵌入式應用  | 通常需要離線編譯 (Offline Compilation) 將模型遷移到晶片上        |
+
 
 ## **開源社群精選資源**
 ### Data Preparation
