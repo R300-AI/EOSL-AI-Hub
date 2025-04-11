@@ -42,20 +42,20 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 <div style="margin-left: 20px;">
 <p>At AI Hub, we provide comprehensive guides for various types of Chiplets, including system configuration methods and model deployment tutorials. 
 
-1. First, obtain an Evaluation Kit from an authorized retailer or distributor and follow the official documentation to configure the installation environment and operating system according to your requirements. 
-2. This Developer Zone also provides notes and shared resources to assist with the setup process.
+1. First, obtain an Evaluation Kit from an authorized retailer or distributor. Then, follow the official documentation to configure the installation environment and operating system according to your requirements.
+2. The Developer Zone provides concise notes and shared resources to assist with the setup process.
 3. Next, utilize the benchmark data available in the <a href="https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo">Model Zoo</a> to evaluate the performance of each chip and determine its suitability for your application needs. 
-4. Finally, use the provided testing tools to assess your model's performance on different processing units across various Chiplets, gaining deeper insights into AI acceleration and optimization.</p>
+4. Finally, use the provided testing tools to assess your model's performance on different processing units across various Chiplets, to gain detailed insights into AI acceleration techniques and optimization strategies.</p>
 </div>
 
 
 > [**NOTE**] It is important to understand that different chip vendors have unique hardware and software ecosystems. However, for most AI developers, the following framework is commonly followed, allowing us to quickly filter and select the appropriate chip: <br>
 >
->   | Processing Unit | Memory Usage | Computing Operators            | Ideal Use Case                     | Notes                                                                 |
+>   | Processing Unit | Memory Usage | Supported Computing Operators  | Ideal Use Case                     | Notes                                                                 |
 >   |-----------------|--------------|------------------------|-------------------------------------|----------------------------------------------------------------------|
->   | CPU             | Medium       | General-purpose logic  | Control flow and non-parallel ML tasks | Can directly execute general-purpose code. The performance of ML models can be further enhanced using vendor-optimized libraries (e.g., OpenVINO, ZenDNN, Kleidi AI, etc.). |
->   | GPU             | High         | Graphics rendering and parallel computing | Matrix multiplication and neural network inference | Requires installation of graphics drivers (e.g., CUDA, ROCm) and the use of related execution providers (e.g., TensorRT) to utilize GPU computing resources. |
->   | NPU             | Low          | Specialized AI operators | Low-power, high-efficiency neural network inference | Requires installation of drivers and execution providers. Additionally, vendor-provided quantization tools are typically needed to compile models. These tools help map operators to NPU computing resources. |
+>   | CPU             | Medium       | General-purpose logic  | Control flow and non-parallel ML tasks | Executes general-purpose code directly. The performance of ML models can be further enhanced using vendor-optimized libraries (e.g., OpenVINO, ZenDNN, Kleidi AI...). |
+>   | GPU             | High         | Graphics rendering and parallel computing | Matrix multiplication and neural network inference | Requires the installation of appropriate graphics drivers (e.g., CUDA for NVIDIA GPUs, ROCm for AMD GPUs) and the use of related execution provider (e.g., TensorRT) to utilize GPU computing resources. |
+>   | NPU             | Low          | Specialized AI operators | Low-power, high-efficiency neural network inference | Requires driver and execution provider installation. Additionally, vendor-provided quantization tools are typically needed to compile models. These tools help map operators to NPU computing resources. |
 
 
 ## **Open-Source Community Highlights**
