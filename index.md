@@ -48,13 +48,13 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 4. Finally, use the provided testing tools to assess your model's performance on different processing units across various Chiplets, gaining deeper insights into AI acceleration and optimization.</p>
 </div>
 
-> [**NOTE**] 以下是不同處理單元的比較表（適用場景為最理想的使用方式，非唯一選擇）：<br>
+> [**NOTE**] 我們需要明白每種晶片的，<br>
 >
 > | 委託處理器  | Memory Usage       | 運算單元  | 最理想的適用場景   | 注意事項                                                     |
 > |------|-----|--------------------|------------------------------|--------------------------------------------------------------|
-> | CPU  | 中  | 通用邏輯運算        | 流程控制與一般 ML 的計算需求   | 無需安裝額外驅動程式，但可透過製造商的 Library 進一步優化邏輯陣列的效能（如：OpenVINO, ZenDNN...） |
-> | GPU  | 高  | 圖形運算與同步運算   | 矩陣乘法與神經網路推論        | 需安裝驅動程式 (如：CUDA, ROCm)，適合需要大量計算資源的應用          |
-> | NPU  | 低  | 特定的AI運算        | 低功耗、高效能的神經網路推論   | 需進行離線編譯 (Offline Compilation) 將模型遷移至晶片上         |
+> | CPU  | 中  | 通用邏輯運算       | 流程控制與一般非平行化的任務    | 無需安裝額外驅動程式即可直接部署程式碼，但可透過製造商的 Library 進一步優化ML模型的效能（如：OpenVINO, ZenDNN...） |
+> | GPU  | 高  | 圖形渲染與同步運算  | 矩陣乘法與神經網路推論        | 需安裝驅動程式 (如：CUDA, ROCm)，適合需要大量計算資源的應用          |
+> | NPU  | 低  | 特定的AI運算       | 低功耗、高效能的神經網路推論   | 通常需要透過製造商提供的編譯軟體進一步量化、微調模型，才能正確將運算子委託至晶片做運算         |
 
 ## **Open-Source Community Highlights**
 ### Data Preparation
