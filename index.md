@@ -21,7 +21,13 @@ nav_order: 1
 In this regard, ITRI provides online resources such as <a href="https://azure.microsoft.com/en-us/products/machine-learning">Azure AI Foundry</a> and <a href="https://www.aita.org.tw/News/news_more?id=82a8da71e7cc4cf6acb657a789165822">AMD Instinct Cluster</a> to help you easily adapt and develop your products without incurring significant infrastructure maintenance costs. Additionally, you can quickly deploy your innovative applications by integrating pre-built tools and frameworks from the open-source community (e.g., YOLO, LLaMA, Whisper...) to obtain models.</p>
 </div>
 
-<strong>Step2. Compiling</strong>
+<strong>Why AI on Chips?</strong>
+<div style="margin-left: 20px;">
+AI on chips enables efficient execution of machine learning models directly on embedded systems, reducing latency and dependency on cloud resources. To achieve this, vendor-specific compilers play a crucial role. These compilers are designed to fine-tune model parameters, optimize memory usage, and allocate computational resources effectively. They also generate binary files tailored to the chip's architecture and instruction set, ensuring maximum performance and energy efficiency for AI applications on edge devices.
+</div>
+
+
+<strong>Why AI on Chips?</strong>
 <div style="margin-left: 20px;">
 To ensure that the model can execute efficiently on embedded systems, we need to use vendor-specific compilers. These compilers fine-tune parameters, optimize memory and computational resource allocation, and generate binary files based on the chip architecture and instruction set.
 <ul></ul>
