@@ -49,7 +49,7 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 </div>
 
 
-> [**NOTE**] It is important to understand that different chip vendors have unique software and hardware ecosystems. Here, we provide some considerations for delegating tasks to different processing units:<br>
+> [**NOTE**] It is important to understand that different chip vendors have unique hardware and software ecosystems. However, for most AI developers, the following framework is commonly followed, allowing us to quickly filter and select the appropriate chip: <br>
 >
 >   | Processing Unit | Memory Usage | Computing Operators            | Ideal Use Case                     | Notes                                                                 |
 >   |-----------------|--------------|------------------------|-------------------------------------|----------------------------------------------------------------------|
