@@ -47,6 +47,11 @@ To get started, first obtain an Evaluation Kit from a retailer or agent and foll
 Next, use the benchmark data provided by the <a href="https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo">Model Zoo</a> to analyze the performance of each chip and determine if it meets your application requirements. Finally, leverage the included testing tools to evaluate your model's performance on different processing units across various Chiplets, gaining a deeper understanding of AI acceleration implementation.</p>
 </div>
 
+> [注意]
+> CPU
+> GPU
+> NPU
+
 ## **開源社群精選資源**
 ### Data Preparation
 * [Label Studio: Open Source Data Labeling](https://labelstud.io/)
