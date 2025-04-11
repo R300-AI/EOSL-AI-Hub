@@ -40,12 +40,12 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 </ul>
 
 <div style="margin-left: 20px;">
-<p>At AI Hub, we provide comprehensive guides for various types of Chiplets, including system configuration methods and model deployment tutorials. 
+<p>At AI Hub, we provide comprehensive guides for various types of Chiplets, including system configuration methods and model deployment tutorials. <br>
 
-1. First, obtain an Evaluation Kit from an authorized retailer or distributor. Then, follow the official documentation to configure the installation environment and operating system according to your requirements.
-2. The Developer Zone provides concise notes and shared resources to assist with the setup process.
-3. Next, utilize the benchmark data available in the <a href="https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo">Model Zoo</a> to evaluate the performance of each chip and determine its suitability for your application needs. 
-4. Finally, use the provided testing tools to assess your model's performance on different processing units across various Chiplets, to gain detailed insights into AI acceleration techniques and optimization strategies.</p>
+1. First, obtain an Evaluation Kit from an authorized retailer or distributor. Then, follow the official documentation to configure the installation environment and operating system according to your requirements.<br>
+2. The Developer Zone provides concise notes and shared resources to assist with the setup process.<br>
+3. Next, utilize the benchmark data available in the <a href="https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo">Model Zoo</a> to evaluate the performance of each chip and determine its suitability for your application needs. <br>
+4. Finally, use the provided testing tools to assess your model's performance on different processing units across various Chiplets, to gain detailed insights into AI acceleration techniques and optimization strategies.<br></p>
 </div>
 
 <p>
