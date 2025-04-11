@@ -48,13 +48,23 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 4. Finally, use the provided testing tools to assess your model's performance on different processing units across various Chiplets, gaining deeper insights into AI acceleration and optimization.</p>
 </div>
 
-> [**NOTE**] 我們需要明白每種晶片的，<br>
+
+> [**NOTE**] It is important to understand that different chip vendors have unique software and hardware ecosystems. Here, we provide some considerations for delegating tasks to different processing units:<br>
 >
-> | 委託處理器  | Memory Usage       | 運算單元  | 最理想的適用場景   | 注意事項                                                     |
-> |------|-----|--------------------|------------------------------|--------------------------------------------------------------|
-> | CPU  | 中  | 通用邏輯運算       | 流程控制與一般非平行化的任務    | 無需安裝額外驅動程式即可直接部署程式碼，但可透過製造商的 Library 進一步優化ML模型的效能（如：OpenVINO, ZenDNN...） |
-> | GPU  | 高  | 圖形渲染與同步運算  | 矩陣乘法與神經網路推論        | 需安裝驅動程式 (如：CUDA, ROCm)，適合需要大量計算資源的應用          |
-> | NPU  | 低  | 特定的AI運算       | 低功耗、高效能的神經網路推論   | 通常需要透過製造商提供的編譯軟體進一步量化、微調模型，才能正確將運算子委託至晶片做運算         |
+>   | Processing Unit | Memory Usage | Computing Unit         | Ideal Use Case                     | Notes                                                                 |
+>   |-----------------|--------------|------------------------|-------------------------------------|----------------------------------------------------------------------|
+>   | CPU             | Medium       | General-purpose logic  | Control flow and general non-parallel tasks | Does not require additional drivers to execute code directly. Performance of ML models can be further optimized using vendor-provided libraries (e.g., OpenVINO, ZenDNN, Kleidi AI, etc.). |
+>   | GPU             | High         | Graphics rendering and parallel computing | Matrix multiplication and neural network inference | Requires installation of graphics drivers (e.g., CUDA, ROCm) and the use of related execution providers (e.g., TensorRT) to utilize GPU computing resources. |
+>   | NPU             | Low          | Specialized AI operators | Low-power, high-efficiency neural network inference | Requires installation of drivers and execution providers. Additionally, vendor-provided quantization tools are typically needed to compile models and map operators to NPU computing resources. |
+
+
+> [**NOTE**] 我們需要明白各家晶片具有不同的軟/硬體生態，這裡我們提供一些晶片委託的考量<br>
+>
+>   | 委託處理器  | Memory Usage       | 運算單元  |最理想的適用場景 | 注意事項                                                     |
+>   |------|-----|--------------------|--------------------------|--------------------------------------------------------------|
+>   | CPU  | 中  | 通用邏輯運算       | 流程控制與一般非平行化的處理 | 無需安裝額外的驅動程式即可直接執行程式碼，可透過製造商的庫進一步優化ML模型的效能（如：OpenVINO, ZenDNN, Kleidi AI...） |
+>   | GPU  | 高  | 圖形渲染與同步運算  | 矩陣乘法與神經網路推論      | 需安裝圖形驅動程式（如 CUDA、ROCm），並使用相關的 Execution Provider（如 TensorRT）來調用GPU的運算資源               |
+>   | NPU  | 低  | 特定AI運算子       | 低功耗、高效能的神經網路推論 | 除了需安裝驅動程式及Execution Provider，通常還要透過製造商的量化軟體進一步編譯模型，以將模型的運算子映射至NPU的運算資源 |
 
 ## **Open-Source Community Highlights**
 ### Data Preparation
