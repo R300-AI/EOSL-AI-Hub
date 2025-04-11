@@ -49,7 +49,7 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
 </div>
 
 
-> [**NOTE**] It is important to understand that different chip vendors have unique hardware and software ecosystems. However, for most AI developers, the following framework is commonly followed, allowing us to quickly filter and select the appropriate chip: <br>
+> [**NOTE**] Different chip vendors provide unique hardware and software ecosystems. However, most AI developers follow a common framework to efficiently filter and select the most suitable chip: <br>
 >
 >   | Processing Unit | Memory Usage | Supported Computing Operators  | Ideal Use Case                     | Notes                                                                 |
 >   |-----------------|--------------|------------------------|-------------------------------------|----------------------------------------------------------------------|
