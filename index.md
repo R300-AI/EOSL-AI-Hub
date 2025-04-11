@@ -31,18 +31,16 @@ AI on Chips enables various types of electronic devices to efficiently execute A
 <div style="margin-left: 20px;">
 To ensure that models can run efficiently on embedded systems, AI developers must identify the hardware specifications and architecture of the chips. This is essential to fully leverage the application performance of advanced AI chips. You can find more information on other pages of this document:
 <ul>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Raspberry Pi Evaluation Kit</li>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kit</a></li>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/ryzen.html">Ryzen AI Evaluation Kit</a></li>
-    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Jetson Evaluation Kit</a></li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Raspberry Pi Board</li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Board</a></li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/ryzen.html">Ryzen AI Board</a></li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Jetson Board</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">WiseEye Visual AI Accelerator (MCU)</li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Hailo Visual AI Accelerator (MCU)</a></li>
 </ul>
 
-在AI Hub，我們提供以上類型的Chiplet入門指南，包括系統配置方法和模型部署教程： 
+在AI Hub，我們提供以上類型的Chiplet入門指南，包括系統配置方法和模型部署教程。 首先，您需先通過Retailer或Agent取得Evaluation Kit
 
-
-在這些Chiplet上分別裝載了不同的硬件與軟體架構
 </div>
 
 ## **開源社群精選資源**
