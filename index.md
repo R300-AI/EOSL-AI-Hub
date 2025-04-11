@@ -38,8 +38,8 @@ To ensure that models can run efficiently on embedded systems, AI developers mus
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">WiseEye Visual AI Accelerator (MCU)</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/">Hailo Visual AI Accelerator (MCU)</a></li>
 </ul>
-
 <div style="margin-left: 20px;">
+
 <p>At AI Hub, we provide comprehensive guides for various types of Chiplets, including system configuration methods and model deployment tutorials. <br>
 
 1. First, obtain an Evaluation Kit from an authorized retailer or distributor. Then, follow the official documentation to configure the installation environment and operating system according to your requirements.<br>
