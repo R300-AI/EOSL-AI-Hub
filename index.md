@@ -54,11 +54,11 @@ At AI Hub, we provide comprehensive guides for various types of Chiplets, includ
 > <table>
 >   <thead>
 >     <tr>
->       <th style="width: 15%;">Processing Unit</th>
->       <th style="width: 10%;">Memory Usage</th>
->       <th style="width: 20%;">Supported Computing Operators</th>
->       <th style="width: 20%;">Ideal Use Case</th>
->       <th style="width: 35%;">Notes</th>
+>       <th style="width: 10%;">Processing Unit</th>
+>       <th style="width: 5%;">Memory Usage</th>
+>       <th style="width: 12%;">Supported Computing Operators</th>
+>       <th style="width: 12%;">Ideal Use Case</th>
+>       <th style="width: 61%;">Notes</th>
 >     </tr>
 >   </thead>
 >   <tbody>
