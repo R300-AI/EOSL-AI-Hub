@@ -23,8 +23,8 @@ In this regard, ITRI provides online resources such as <a href="https://azure.mi
 
 <strong>AI on Chips: Enabling the Future of AI Everywhere</strong>
 <div style="margin-left: 20px;">
-AI on Chips enables various types of electronic devices to efficiently execute AI models, offering unparalleled opportunities to realize the vision of AI Everywhere. To achieve this, Chiplets play a critical role by integrating CPUs, GPUs, and NPUs into a single chip, overcoming traditional performance and power consumption bottlenecks. For vendor-specific solutions and Taiwan's self-developed Silicon IP, ITRI provides a pilot production line for heterogeneous integration with small-volume, diverse packaging. This process fully covers the design, manufacturing, verification, and system integration testing of Chiplets, helping enterprises and academia quickly enter the market and achieve innovative applications.
-</div>
+AI on Chips enables various types of electronic devices to efficiently execute AI models, offering unparalleled opportunities to realize the vision of AI Everywhere. To achieve this, Chiplets play a critical role by integrating CPUs, GPUs, and NPUs into a single chip, overcoming traditional performance and power consumption bottlenecks. For vendor-specific solutions and Taiwan's self-developed Silicon IP, ITRI provides a pilot production line for heterogeneous integration with small-volume, diverse packaging. This process fully covers the design, manufacturing, verification, and system integration testing of Chiplets, helping enterprises and academia quickly enter the market and build innovative applications on top of it.
+</div><br>
 
 
 <strong>如何開始使用小晶片?</strong>
