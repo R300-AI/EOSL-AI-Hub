@@ -163,10 +163,14 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
 
 ## <div align="center">News</div>
 
-* 2024/09 Released a Simple and Clear **Developer's Tutorial** Website [HERE](https://r300-ai.github.io/ITRI-AI-Hub/).
-* 2024/07 Started Testing Model Deployment with **NVIDIA, AMD, ARM,** and **Mediatek**.
-* 2024/05 Release **ITRI AI Hub**.
-  
+* 2025/01 Added support for **ARM** as a deployment platform.
+* 2024/12 Added support for **AMD** as a deployment platform.
+* 2024/09 Released a **Developer's Zone** Website [HERE](https://r300-ai.github.io/ITRI-AI-Hub/).
+* 2024/07 Started Testing Model Deployment with **Hailo**.
+* 2024/05 Release **AI Hub Portal**.
+* 2024/03 Established a partnership with **Microsoft Azure**.
+* 2023/12 Initiated this project with **MediaTek** as a AI on Chip testing platform.
+
 ## <div align="center">Contridutors</div>
 
 <a href="https://www.moea.gov.tw/Mns/populace/home/Home.aspx" target="AI晶片異質整合模組前瞻製造平台計畫"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/moea_logo.png" alt="MOEA logo" height="38" width="216"></a>&nbsp;
