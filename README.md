@@ -165,11 +165,11 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
 
 * 2025/01 Added support for **ARM** as a deployment platform.
 * 2024/12 Added support for **AMD** as a deployment platform.
-* 2024/09 Released a **Developer's Zone** Website [HERE](https://r300-ai.github.io/ITRI-AI-Hub/).
-* 2024/07 Started Testing Model Deployment with **Hailo**.
-* 2024/05 Release **AI Hub Portal**.
+* 2024/09 Released a [**Developer's Zone**](https://r300-ai.github.io/ITRI-AI-Hub/) for chipset tutorials.
+* 2024/07 Started testing model deployment with **Hailo**.
+* 2024/05 Released the **AI Hub Portal** as an application gallery.
 * 2024/03 Established a partnership with **Microsoft Azure**.
-* 2023/12 Initiated this project with **MediaTek** as a AI on Chip testing platform.
+* 2023/12 Initiated the project with **MediaTek** as an AI-on-Chip testing platform.
 
 ## <div align="center">Contridutors</div>
 
