@@ -90,7 +90,7 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
         <th>Microsoft Azure</th>
     </tr>
     <tr>
-        <td rowspan=3>Application</td>
+        <td rowspan=3>Framework</td>
         <td>Image Classification</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
