@@ -90,15 +90,34 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
         <th>Microsoft Azure</th>
     </tr>
     <tr>
-        <td rowspan=1>Framework</td>
+        <td rowspan=1>Agent</td>
         <td>Multi-modal Q&A</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td rowspan=3>Framework</td>
+        <td>SQL-RAG</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td rowspan=1>Tool</td>
-        <td>Text to Text</td>
+        <td>Graph-RAG</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Baseline-RAG</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td rowspan=2>Tool</td>
+        <td>OCR</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
