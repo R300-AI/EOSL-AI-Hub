@@ -84,7 +84,7 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
 <table>
     <tr>
         <th>Category</th>
-        <th>Application</th>
+        <th>Platform</th>
         <th>MediaTek Genio<br>
         <th>AMD Ryzen/Radeon<br>
         <th>Microsoft Azure</th>
