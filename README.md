@@ -85,6 +85,62 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
     <tr>
         <th>Category</th>
         <th>Application</th>
+        <th>MediaTek Genio<br>
+        <th>AMD Ryzen/Radeon<br>
+        <th>Microsoft Azure</th>
+    </tr>
+    <tr>
+        <td rowspan=3>CV</td>
+        <td>Image Classification</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Object Detection</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Semantic Segmentation</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td rowspan=1>NLP</td>
+        <td>Text to Text</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td rowspan=1>Voice Signals</td>
+        <td>Speech-Recognition</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td rowspan=2>Multi Modal</td>
+        <td>Text to Image</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Text to Voice</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+</table>
+
+
+<table>
+    <tr>
+        <th>Category</th>
+        <th>Application</th>
         <th>Pi<br>
         <th>Genio<br>
         <th>Ryzen</th>
