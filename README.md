@@ -122,26 +122,6 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
-    <tr>
-        <td rowspan=1>Voice Signals</td>
-        <td>Speech-Recognition</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-    </tr>
-    <tr>
-        <td rowspan=2>Multi Modal</td>
-        <td>Text to Image</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-    </tr>
-    <tr>
-        <td>Text to Voice</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-    </tr>
 </table>
 
 
