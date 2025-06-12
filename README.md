@@ -83,7 +83,7 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
 
 <table>
     <tr>
-        <th colspan=3>Platform</th>
+        <th colspan=2>Platform</th>
         <th rowspan=2>MediaTek Genio<br>
         <th rowspan=2>AMD Ryzen/Radeon<br>
         <th rowspan=2>Microsoft Azure</th>
@@ -96,14 +96,12 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
     <tr>
         <td rowspan=2>Framework</td>
         <td>Multi-modal Q&A</td>
-        <td></td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
     </tr>
     <tr>
         <td>Robotic RL</td>
-        <td></td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
@@ -111,21 +109,18 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
     <tr>
         <td rowspan=3>Tools</td>
         <td>SQL-RAG</td>
-        <td></td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Graph-RAG</td>
-        <td></td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Baseline-RAG</td>
-        <td></td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
@@ -133,28 +128,24 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
     <tr>
         <td rowspan=4>Functions</td>
         <td>OCR</td>
-        <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Stereo-Tracking</td>
-        <td></td>
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>BBox-Detection</td>
-        <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>3DPose-Detection</td>
-        <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
