@@ -91,7 +91,6 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
     <tr>
         <th>Category</th>
         <th>Application</th>
-        <th>License</th>
     </tr>
     <tr>
         <td rowspan=2>Framework</td>
