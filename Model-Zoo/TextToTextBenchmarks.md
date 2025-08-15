@@ -38,7 +38,7 @@
   | qwen2.5:3b-instruct-q4_K_M   | 9 HX 375 | Ollama(`VGM`) |    33    |   11    |    0    |             |       550.6926ms          |  25.48 tokens/s   |
   | qwen2.5:3b-instruct-q5_0     | 9 HX 375 | Ollama(`VGM`) |    30    |   10    |    0    |             |       492.8077ms          |  19.35 tokens/s   |
   | qwen2.5:3b-instruct-q5_K_M   | 9 HX 375 | Ollama(`VGM`) |    37    |   11    |    0    |             |       341.4379ms          |  22.10 tokens/s   |
-  |  | 9 HX 375 | Ollama(`VGM`) |        |       |    0    |             |                 |     |
+  | qwen2.5:3b-instruct-q8_0     | 9 HX 375 | Ollama(`VGM`) |    36    |   10    |    0    |             |       428.6722ms          |  16.71 tokens/s   |
   |  | 9 HX 375 | Ollama(`VGM`) |        |       |    0    |             |                 |     |
   |  | 9 HX 375 | Ollama(`VGM`) |        |       |    0    |             |                 |     |
   |  | 9 HX 375 | Ollama(`VGM`) |        |       |    0    |             |                 |     |
