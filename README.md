@@ -100,7 +100,7 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
 
 - **[MTK] 2024/03** — - Initiated [**EOSL AI Hub**](https://github.com/R300-AI/EOSL-AI-Hub/tree/main) :
 
-  A validation platform for CV/NLP/Audio/Multimodal models across diverse chipsets. (The current phase is reflected in the table below).
+  A validation platform for CV/NLP/Audio/Multimodal models across diverse chipsets. (*The current phase is reflected in the table below).
 
 <div align="center">
 <table>
