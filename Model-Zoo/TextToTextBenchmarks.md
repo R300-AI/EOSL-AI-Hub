@@ -9,7 +9,7 @@
 
 基於 AMD 官方建議，本報告採用 **Ollama** 推論框架在本地執行大型語言模型，原因是其對APU提供完善的支援，能在 Windows 與 Linux 環境下直接利用 iGPU 做加速，兼顧效能、效率與本地資料隱私。
 
-> 請注意，執行過程需開啟VGM。`VGM（VRAM iGPU Memory）` 是 AMD 專為 Ryzen AI 設計的記憶體最佳化技術，能讓LLMs模型在推論過程中更高效率地載入與處理權重及中間資料，減少 CPU 與 GPU 間的資料傳輸瓶頸與延遲，提升整體的推論速度與穩定性。
+> 請注意，執行過程需透過BIOS或Adrenalin Editor開啟`VGM（VRAM iGPU Memory）`。 VGM是 AMD 專為 Ryzen AI 設計的記憶體最佳化技術，能讓LLMs模型在推論過程中更高效率地載入與處理權重及中間資料，減少 CPU 與 GPU 間的資料傳輸瓶頸與延遲，提升整體的推論速度與穩定性。
 
 ### Ryzen AI 9 HX
 
