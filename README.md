@@ -1,6 +1,6 @@
 <div align="center">
   
-  [ITRI AI Hub](https://e-aihub.dev/) is an **AI Deployment Verification Platform** build upon selected CPUs, GPUs, NPUs, and MCUs. It is designed to delegate the computer vision (CV), natural language process (NLP), audio signals and multimodal models to be accelerated on-chip. making AI application proof-of-concept and commercial implementation easier.
+  [EOSL AI Hub](https://e-aihub.dev/) is an **AI Deployment Verification Platform** build upon selected CPUs, GPUs, NPUs, and MCUs. It is designed to delegate the computer vision (CV), natural language process (NLP), audio signals and multimodal models to be accelerated on-chip. making AI application proof-of-concept and commercial implementation easier.
 
 Contact With Us :wave:
 
@@ -90,6 +90,9 @@ A web-based tool for compiling AI models to MTK Genio's DLA format.
 AI model deployment on Ryzen AI using hybrid CPU, GPU, and NPU acceleration.
 - **[MTK] 2024/07** — Released [**MTK genio demo**](https://github.com/R300-AI/MTK-genio-demo/tree/main):
 AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
+- **[MTK] 2024/07** — - Initiated ELSL AI Hub :
+A validation platform for CV/NLP/Audio/Multimodal models across diverse platforms.
+
 
 <div align="center">
 <table>
