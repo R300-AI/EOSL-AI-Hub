@@ -113,7 +113,7 @@ AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
         <td>:white_check_mark:</td>
         <td>:black_square_button:</td>
     </tr>
-    <tr
+    <tr>
         <td>Image Classification</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
