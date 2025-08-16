@@ -1,6 +1,6 @@
 ## AMD Ryzen AI 300 Series
 
-基於 AMD 官方建議，本報告採用 [**Ollama**](https://ollama.com/) 推論框架在本地執行大型語言模型，原因是其對APU提供完善的支援，能在 Windows 與 Linux 環境下直接利用 iGPU 做加速，兼顧效能、效率與本地資料隱私。
+基於 AMD 官方建議，本報告採用 [**Ollama**](https://ollama.com/) 推論框架及[**LLM-Benchmark**](https://llm.aidatatools.com/)在本地執行大型語言模型的測試，Ollama對AMD Ryzen AI APU已提供完善的支援，能在 Windows 與 Linux 環境下直接利用 iGPU 做加速，兼顧效能、效率與本地資料隱私。
 
 > 請注意，執行過程需透過BIOS或Adrenalin Editor開啟`VGM（VRAM iGPU Memory）`。 VGM是 AMD 專為 Ryzen AI 設計的記憶體最佳化技術，能讓推論過程更高效率地載入與處理權重及資料，減少 CPU 與 GPU 間的傳輸瓶頸與延遲，提升整體的推論速度與穩定性。
 
@@ -30,9 +30,9 @@
 
 ---
 
-### 架構相容性測試
+#### 架構相容性測試
 
-本節彙整了參數量8b以下可於本地端運行的多種主流大型語言模型，並比較其在 AMD Ryzen AI APU 上的實際效能表現。您可以透過以下表格觀察不同模型架構在本地推論時的資源分配與速度差異。建議讀者可以搭配前述量化策略評估，針對應用情境適用的模型版本，進一步尋找合適的模型量化，達到最佳的效能、資源與精度的平衡。
+本節彙整了參數量`8B`參數以下可部署於本地端執行的多種主流大型語言模型，並比較其在 AMD Ryzen AI APU 上的實際效能表現，您可以透過以此表格觀察不同架構的模型在推論時的資源分配與速度差異。建議讀者可以進一步搭配前述的量化策略評估，針對應用情境適用的模型版本進一步尋找合適的模型量化，以達到最佳的效能、資源與精度的平衡。
  
   | Model             |  CPU (%) | iGPU (%) |  TTFT (ms) |  Speed (token/s)  |
   |-------------------|----------|----------|---------------|------------|
@@ -50,5 +50,4 @@
   | gemma3n:e2b       |  35      |   5      | 352.3         | 27.51      |
   | aya:8b            |  28      |   3      | 733.4         | 9.21       |
 
-* [**LLM-Benchmark**](https://llm.aidatatools.com/)
 * [LM-SYS](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
