@@ -247,13 +247,12 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
 * 2024/03 Established a partnership with **Microsoft Azure**.
 * 2023/12 Initiated the project with **MediaTek** as an AI-on-Chip testing platform.
 
-## <div align="center">Contridutors</div>
+## <div align="center">合作廠商</div>
 
-<a href="https://www.moea.gov.tw/Mns/populace/home/Home.aspx" target="AI晶片異質整合模組前瞻製造平台計畫"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/moea_logo.png" alt="MOEA logo" height="38" width="216"></a>&nbsp;
 <a href="https://www.itri.org.tw/index.aspx" target="工業技術研究院"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/itri_EL_A.jpg" alt="ITRI logo" height="39"></a>&nbsp;
-<a href="https://www.amd.com/zh-tw.html" target="amd"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/amd_logo.png" alt="amd logo" height="33"></a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.arm.com/zh-TW/" target="Arm"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/arm_logo.png" alt="Arm logo" height="33"></a>&nbsp;&nbsp;
-<a href="https://www.microsoft.com/zh-tw" target="microsoft"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/microsoft_logo.png" alt="amd logo" height="33"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.amd.com/zh-tw.html" target="amd"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/amd_logo.png" alt="amd logo" height="34"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.arm.com/zh-TW/" target="Arm"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/arm_logo.png" alt="Arm logo" height="34"></a>&nbsp;&nbsp;
+<a href="https://www.microsoft.com/zh-tw" target="microsoft"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/microsoft_logo.png" alt="amd logo" height="34"></a>&nbsp;&nbsp;&nbsp;
 <a href="https://www-stage.mediatek.com/zh-tw/" target="聯發科技"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/mediatek_logo.png" alt="MediaTek logo" height="35"></a>&nbsp;
 
 
