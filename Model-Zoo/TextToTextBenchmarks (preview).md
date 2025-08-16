@@ -50,4 +50,4 @@
   | gemma3n:e2b       |  35      |   5      | 352.3         | 27.51      |
   | aya:8b            |  28      |   3      | 733.4         | 9.21       |
 
-* [LM-SYS](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
+此外，不同模型之間的適用性，除了效能指標外，也需考量模型本身的問答能力與實際應用需求。建議使用者可搭配 [LM-SYS](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)...等額外的工具，針對自身場景進行客製化評測與開發，以選出最符合需求的模型方案。
