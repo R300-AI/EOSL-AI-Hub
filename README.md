@@ -151,10 +151,28 @@ AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
     </tr>
     <tr>
         <td rowspan=4>NLP</td>
-        <td>Text to Text</td>
+        <td>Text to Text Generation</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+    </tr>
+    <tr>
+        <td>Text Embedding</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+    </tr>
+    <tr>
+        <td>Image Embeding</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
