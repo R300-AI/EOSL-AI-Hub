@@ -90,7 +90,7 @@ A web-based tool for compiling AI models to MTK Genio's DLA format.
 AI model deployment on Ryzen AI using hybrid CPU, GPU, and NPU acceleration.
 - **[MTK] 2024/07** — Released [**MTK genio demo**](https://github.com/R300-AI/MTK-genio-demo/tree/main):
 AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
-- **[MTK] 2024/07** — - Initiated ELSL AI Hub :
+- **[MTK] 2024/03** — - Initiated [**EOSL AI Hub**](https://github.com/R300-AI/EOSL-AI-Hub/tree/main) :
 A validation platform for CV/NLP/Audio/Multimodal models across diverse chipsets.
 
 
