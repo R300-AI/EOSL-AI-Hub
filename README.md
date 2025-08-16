@@ -185,7 +185,7 @@ AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
 <a href="https://www.itri.org.tw/index.aspx" target="工業技術研究院"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/itri_EL_A.jpg" alt="ITRI logo" height="39"></a>&nbsp;
 <a href="https://www.amd.com/zh-tw.html" target="amd"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/amd_logo.png" alt="amd logo" height="34"></a>&nbsp;&nbsp;&nbsp;
 <a href="https://www.arm.com/zh-TW/" target="Arm"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/arm_logo.png" alt="Arm logo" height="33"></a>&nbsp;&nbsp;
-<a href="https://www.microsoft.com/zh-tw" target="microsoft"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/microsoft_logo.png" alt="amd logo" height="34"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.microsoft.com/zh-tw" target="microsoft"> <img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/microsoft_logo.png" alt="microsoft logo" height="34"></a>&nbsp;&nbsp;&nbsp;
 <a href="https://www-stage.mediatek.com/zh-tw/" target="聯發科技"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/mediatek_logo.png" alt="MediaTek logo" height="35"></a>&nbsp;
 
 
