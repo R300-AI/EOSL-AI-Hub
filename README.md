@@ -85,11 +85,11 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
 - **[ITRI] 2025/05** — Launched [**AI Hub**](https://e-aihub.dev/):
 A searchable gallery of validated AI applications.
 - **[MTK] 2025/01** — Released [**NeuronPilot Porting Platform**](https://neuronpilot-ai-porting-platform.azurewebsites.net/):
-Web tool for compiling AI models to DLA format.
+A web-based tool for compiling AI models to MTK Genio's DLA format.
 - **[AMD] 2024/09** — Released [**AMD-ryzen-demo**](https://github.com/R300-AI/AMD-ryzen-demo/tree/main):
-AI model deployment on AMD Ryzen with hybrid CPU-GPU acceleration.
+AI model deployment on Ryzen AI using hybrid CPU, GPU, and NPU acceleration.
 - **[MTK] 2024/07** — Released [**MTK genio demo**](https://github.com/R300-AI/MTK-genio-demo/tree/main):
-Lightweight AI demo for MediaTek Genio EVK with DLA support.
+AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
 
 <div align="center">
 <table>
