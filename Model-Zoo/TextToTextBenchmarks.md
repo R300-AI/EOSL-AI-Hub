@@ -30,7 +30,8 @@
   | qwen2.5:0.5b-instruct-q2_K   | 9 HX 375 | Ollama        |    45    |   11    |    0    |        32.8   | 109.99     |
   | qwen2.5:0.5b-instruct-q3_K_M | 9 HX 375 | Ollama        |    38    |   16    |    0    |        35.6   | 100.94     |
 
-# 
+  | Model                        |  Chipsets  |  Framework  |  CPU (%) | GPU (%) | NPU (%) |  TTFT (ms) |  Speed (token/s)  |
+  |------------------------------|------------|-------------|----------|---------|---------|---------------|------------|
   | qwen2.5:1.5b-instruct-q4_0   | 9 HX 375 | Ollama        |    28    |   11    |    0    |       113.3   |  42.20     |  
   | qwen2.5:1.5b-instruct-q4_1   | 9 HX 375 | Ollama        |    35    |   10    |    0    |       406.3   |  38.55     |
   | qwen2.5:1.5b-instruct-q4_K_M | 9 HX 375 | Ollama        |    36    |    9    |    0    |       276.5   |  44.65     |
