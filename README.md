@@ -152,7 +152,7 @@ A validation platform for CV/NLP/Audio/Multimodal models across diverse chipsets
         <td>:black_square_button:</td>
     </tr>
     <tr>
-        <td>Image Embeding</td>
+        <td>Image Embedding</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
