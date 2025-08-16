@@ -11,6 +11,8 @@
 
 ### Ryzen AI 9 HX
 
+---
+
 #### 量化等級及策略評估
 
 `VGM（VRAM iGPU Memory）` 是 AMD 專為 Ryzen AI 設計的記憶體最佳化技術，能讓LLMs模型在推論過程中更高效率地載入與處理權重及中間資料，減少 CPU 與 GPU 間的資料傳輸瓶頸與延遲，提升整體的推論速度與穩定性。
@@ -32,7 +34,9 @@
   | qwen2.5:0.5b-base-q5_1        |    35    |   11     |        27.5   |  86.98     |
   | qwen2.5:0.5b-base-q5_K_S      |    37    |   10     |        18.7   |  99.28     |
   | qwen2.5:0.5b-base-q8_0        |    36    |   12     |        14.7   |  87.27     |
-    
+
+---
+
 ### (不同模型的效果評估)
 
   | Model                        |  Chipsets  |  Framework  |  CPU (%) | GPU (%) | NPU (%) |  TTFT (ms) |  Speed (token/s)  |
