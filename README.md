@@ -82,11 +82,10 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
 
 ## <div align="center">News</div>
 
-* 2025/01 Added support for **ARM** as a deployment platform.
-* 2024/12 Added support for **AMD** as a deployment platform.
+* 2025/01 Release the [NeuronPilot - Porting Platform](https://neuronpilot-ai-porting-platform.azurewebsites.net/) for quickly compile AI models to DLA.
 * 2024/09 [AMD-ryzen-demo](https://github.com/R300-AI/AMD-ryzen-demo/tree/main) Released.
 * 2024/07 [MTK genio demo](https://github.com/R300-AI/MTK-genio-demo/tree/main) Released.
-* 2024/05 Released the [**AI Hub Portal**](https://e-aihub.dev/) as an application gallery.
+* 2024/05 Release the [**AI Hub Portal**](https://e-aihub.dev/) as an application gallery.
 
 <div align="center">
 <table>
