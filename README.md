@@ -104,7 +104,7 @@ AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
         <th>Hailo</th>
     </tr>
     <tr>
-        <td rowspan=4>CV</td>
+        <td rowspan=5>CV</td>
         <td>Image Classification</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -113,6 +113,15 @@ AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
     </tr>
+    <tr>
+        <td>Mathematical Morphology</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+    </tr> 
     <tr>
         <td>Object Detection</td>
         <td>:white_check_mark:</td>
