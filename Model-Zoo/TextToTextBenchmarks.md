@@ -35,20 +35,16 @@
 xxx 
   | Model             |  CPU (%) | iGPU (%) |  TTFT (ms) |  Speed (token/s)  |
   |-------------------|----------|----------|---------------|------------|
-  |deepseek-r1:1.5b   |          |          |               |            |
+  | deepseek-r1:1.5b  |          |          |               |            |
   | deepseek-llm:7b   |          |          |               |            |
   | llama3.1:8b       |          |          |               |            |
-  | llama3.2:1b       |          |          |               |            |
   | llama3.2:3b       |          |          |               |            |
   | qwen2.5:3b        |          |          |               |            |
-  | qwen2.5:7b        |          |          |               |            |
   | qwen2.5vl:3b      |          |          |               |            |
-  | qwen3:1.7b        |          |          |               |            |
   | qwen3:4b          |          |          |               |            |
   | phi3:3.8b         |          |          |               |            |
   | phi3.5:3.8b       |          |          |               |            |
   | phi4-mini:3.8b    |          |          |               |            |
-  | gemma:2b          |          |          |               |            |
   | gemma:7b          |          |          |               |            |
   | gemma3n:e2b       |          |          |               |            |
   | aya:8b            |          |          |               |            |
