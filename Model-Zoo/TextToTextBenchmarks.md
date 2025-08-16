@@ -7,7 +7,7 @@
 
 ## AMD Ryzen AI 300 Series
 
-`VGM`是Ryzen AI獨有的記憶體最佳化技術
+`VGM`是AMD專為Ryzen AI打造的VRAM (iGPU)最佳化的技術
 
 > * **TTFT**：Time-to-first-Token
 
