@@ -33,3 +33,4 @@
 ### 模型選項及架構相容性測試
 
 base chat instruct
+[LM-SYS](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
