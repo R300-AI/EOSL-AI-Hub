@@ -12,9 +12,9 @@
 > * **TTFT**：Time-to-first-Token
 
 ### Ryzen AI 9 HX
-  | Model                        |  Chipsets  |  Framework  |  CPU (%) | GPU (%) | NPU (%) |  TTFT (ms) |  Speed (token/s)  |
+  | Model                        |  Chipsets  |  Framework  |  CPU (%) | iGPU (%) | NPU (%) |  TTFT (ms) |  Speed (token/s)  |
   |------------------------------|------------|-------------|----------|---------|---------|---------------|------------|
-  | qwen2.5:latest               | 9 HX 375 | Ollama        |    34    |    4    |    0    |       676.5   |  11.26     |
+  | qwen2.5:0.5b                 | 9 HX 375 | Ollama        |    34    |    7    |    0    |        59.3   | 110.83     |
   | qwen2.5:0.5b-base-q2_K       | 9 HX 375 | Ollama        |    33    |   10    |    0    |        17.6   | 108.76     |
   | qwen2.5:0.5b-base-q3_K_S     | 9 HX 375 | Ollama        |    37    |   12    |    0    |        21.0   | 104.98     |
   | qwen2.5:0.5b-base-q3_K_M     | 9 HX 375 | Ollama        |    45    |   11    |    0    |         20.6  | 102.63     |  
