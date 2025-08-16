@@ -1,6 +1,6 @@
 ## AMD Ryzen AI 300 Series
 
-基於 AMD 官方建議，本報告採用 [**Ollama**](https://ollama.com/) 推論框架在本地測試大型語言模型，原因是其對APU提供完善的支援，能在 Windows 與 Linux 環境下直接利用 iGPU 做加速，兼顧效能、效率與本地資料隱私。
+基於 AMD 官方建議，本報告採用 [**Ollama**](https://ollama.com/) 推論框架在本地執行大型語言模型，原因是其對APU提供完善的支援，能在 Windows 與 Linux 環境下直接利用 iGPU 做加速，兼顧效能、效率與本地資料隱私。
 
 > 請注意，執行過程需透過BIOS或Adrenalin Editor開啟`VGM（VRAM iGPU Memory）`。 VGM是 AMD 專為 Ryzen AI 設計的記憶體最佳化技術，能讓推論過程更高效率地載入與處理權重及資料，減少 CPU 與 GPU 間的傳輸瓶頸與延遲，提升整體的推論速度與穩定性。
 
