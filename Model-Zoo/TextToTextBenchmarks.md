@@ -32,3 +32,4 @@
 
 ### 模型選項及架構相容性測試
 
+base chat instruct
