@@ -120,6 +120,15 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
         <td>:black_square_button:</td>
     </tr>
     <tr>
+        <td>Pose/Keypoints Detection</td>
+        <td>:black_square_button:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
         <td>Semantic Segmentation</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
