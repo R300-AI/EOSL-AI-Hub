@@ -153,7 +153,7 @@ AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
         <td>Image Embeding</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
-        <td>:black_square_button:</td>
+        <td>:white_check_mark:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
@@ -163,7 +163,7 @@ AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
         <td>Text Embedding</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
-        <td>:black_square_button:</td>
+        <td>:white_check_mark:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
@@ -177,7 +177,6 @@ AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
     </tr>
-
     <tr>
         <td>Speech-Recognition</td>
         <td>:black_square_button:</td>
