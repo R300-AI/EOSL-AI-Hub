@@ -88,6 +88,7 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
 * 2024/07 Started testing model deployment with **Hailo**.
 * 2024/05 Released the [**AI Hub Portal**](https://e-aihub.dev/) as an application gallery.
 
+<div align="center">
 <table>
     <tr>
         <th>Category</th>
@@ -105,68 +106,69 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
     </tr>
     <tr>
         <td>Object Detection</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
     </tr>
     <tr>
         <td>Semantic Segmentation</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
     </tr>
     <tr>
         <td rowspan=1>NLP</td>
         <td>Text to Text</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
     </tr>
     <tr>
         <td rowspan=1>Voice Signals</td>
         <td>Speech-Recognition</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
     </tr>
     <tr>
         <td rowspan=2>Multi Modal</td>
         <td>Text to Image</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
     </tr>
     <tr>
         <td>Text to Voice</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
     </tr>
 </table>
+</div>
 
 ## <div align="center">合作廠商</div>
 
