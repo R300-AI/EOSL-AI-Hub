@@ -82,14 +82,14 @@ The Hailo AI Processor is a high-performance AI solution designed for accelerati
 
 ## <div align="center">News</div>
 
-- [AMD] 2024/09 — Released [**AMD-ryzen-demo**](https://github.com/R300-AI/AMD-ryzen-demo/tree/main):
-Demonstrates optimized AI model deployment on AMD Ryzen platforms, leveraging CPU-GPU hybrid acceleration for real-time inference. Includes sample models, benchmarking scripts, and performance tuning guides.
-- [MTK] 2024/07 — Released [**MTK genio demo**](https://github.com/R300-AI/MTK-genio-demo/tree/main):
-A lightweight demo showcasing AI model execution on MediaTek Genio EVK. Features DLA integration, quantized model support, and deployment instructions for edge devices.
-- [ITRI] 2024/05 — Launched [**AI Hub**](https://e-aihub.dev/):
+- **[ITRI] 2025/05** — Launched [**AI Hub**](https://e-aihub.dev/):
 A curated gallery of validated AI applications across industries. Browse, test, and download models for vision, audio, and sensor-based tasks. Built for developers, integrators, and researchers.
-- [MTK] 2025/01 — Released [**NeuronPilot Porting Platform**](https://neuronpilot-ai-porting-platform.azurewebsites.net/):
+- **[MTK] 2025/01** — Released [**NeuronPilot Porting Platform**](https://neuronpilot-ai-porting-platform.azurewebsites.net/):
 A web-based tool for compiling and verifying AI models to DLA format. Supports ONNX and TFLite inputs, with automatic optimization for Genio hardware targets.
+- **[AMD] 2024/09** — Released [**AMD-ryzen-demo**](https://github.com/R300-AI/AMD-ryzen-demo/tree/main):
+Demonstrates optimized AI model deployment on AMD Ryzen platforms, leveraging CPU-GPU hybrid acceleration for real-time inference. Includes sample models, benchmarking scripts, and performance tuning guides.
+- **[MTK] 2024/07** — Released [**MTK genio demo**](https://github.com/R300-AI/MTK-genio-demo/tree/main):
+A lightweight demo showcasing AI model execution on MediaTek Genio EVK. Features DLA integration, quantized model support, and deployment instructions for edge devices.
 
 <div align="center">
 <table>
