@@ -1,10 +1,3 @@
-## MediaTek Genio Series
-  
-  | Model            |  Chipsets  |    Framework          |    Speed (token/s)<br><sub>Prompt/Eval |   Memory (GB) |  Power (Watt) |     Temp (°C)    |
-  |------------------|------------|-----------------------|--------------------|---------------|---------------|------------------|
-  | deepseek-r1:1.5b |  Genio-510 | Ollama(`Cortex-A78`)   |   9.76/ 5.86      | 4GB (100%)    |               |                  |
-  | llama3.2:1b      |  Genio-510 | Ollama(`Cortex-A78`)   |   21.06/ 6.44     | 4GB (100%)    |               |                  |
-
 ## AMD Ryzen AI 300 Series
 
 基於 AMD 官方建議，本報告採用 [**Ollama**](https://ollama.com/) 推論框架及[**LLM-Benchmark**](https://llm.aidatatools.com/)在本地測試大型語言模型，原因是其對APU提供完善的支援，能在 Windows 與 Linux 環境下直接利用 iGPU 做加速，兼顧效能、效率與本地資料隱私。
