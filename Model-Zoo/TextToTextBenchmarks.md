@@ -7,8 +7,7 @@
 
 ## AMD Ryzen AI 300 Series
 
-`VGM`是AMD專為Ryzen AI打造的VRAM (iGPU)最佳化的技術...，透過Ollama推論框架實現以下測試...
-
+基於 AMD 官方建議，本報告採用 **Ollama** 推論框架在本地執行大型語言模型，原因是其對APU提供完善的支援，能在 Windows 與 Linux 環境下直接利用 iGPU 做加速，兼顧效能、效率與本地資料隱私。其中，VGM（VRAM iGPU Memory）是AMD專為Ryzen AI...的記憶體最佳化技術，可以 在 AI 推論過程中更高效率地載入與處理模型權重及中間資料，減少 CPU與GPU 之間的資料傳輸延遲，進而提升整體推論速度與運行穩定性。
 
 > * **TTFT**：Time-to-first-Token
 
