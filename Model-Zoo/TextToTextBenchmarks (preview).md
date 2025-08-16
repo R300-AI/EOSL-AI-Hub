@@ -35,19 +35,19 @@
 xxx 
   | Model             |  CPU (%) | iGPU (%) |  TTFT (ms) |  Speed (token/s)  |
   |-------------------|----------|----------|---------------|------------|
-  | deepseek-r1:1.5b  |          |          |               |            |
-  | deepseek-llm:7b   |          |          |               |            |
-  | llama3.1:8b       |          |          |               |            |
-  | llama3.2:3b       |          |          |               |            |
-  | qwen2.5:3b        |          |          |               |            |
-  | qwen2.5vl:3b      |          |          |               |            |
-  | qwen3:4b          |          |          |               |            |
-  | phi3:3.8b         |          |          |               |            |
-  | phi3.5:3.8b       |          |          |               |            |
-  | phi4-mini:3.8b    |          |          |               |            |
-  | gemma:7b          |          |          |               |            |
-  | gemma3n:e2b       |          |          |               |            |
-  | aya:8b            |          |          |               |            |
+  | deepseek-r1:1.5b  |          |          | 242.2         |  42.77     |
+  | deepseek-llm:7b   |          |          | 761.3         |  9.58      |
+  | llama3.1:8b       |          |          | 1504.8        | 10.74      |
+  | llama3.2:3b       |          |          | 426.9         | 25.32      |
+  | qwen2.5:3b        |          |          | 390.0         | 26.05      |
+  | qwen2.5vl:3b      |          |          | 377.6         | 26.46      |
+  | qwen3:4b          |          |          | 514.6         | 17.63      |
+  | phi3:3.8b         |          |          | 401.1         | 17.87      |
+  | phi3.5:3.8b       |          |          | 426.5         | 16.99      |
+  | phi4-mini:3.8b    |          |          | 375.5         | 20.99      |
+  | gemma:7b          |          |          | 1139.6        | 8.33       |
+  | gemma3n:e2b       |          |          | 352.3         | 27.51      |
+  | aya:8b            |          |          | 733.4         | 9.21       |
 
 llm_benchmark run --custombenchmark=custombenchmarkmodels.yml
 base chat instruct
