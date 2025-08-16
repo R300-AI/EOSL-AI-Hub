@@ -10,7 +10,7 @@
 
 #### 量化等級及策略評估
 
-您可以透過表格中的 **CPU%、iGPU%、TTFT（Time-to-first-Token）**與**生成速度**觀察VGM 在不同量化設定下的效能差異與運算資源分配情形。其中，量化等級以 `qX` 表示，X 為位元數(數值越低壓縮率越高，但模型精度可能會下降)；命名中的`0`、`1`、`K_Small`、`K_Medium`、`K_Large` 則代表同位元下的不同量化變體，允許使用者在速度、資源與精度之間取不同平衡。
+您可以透過表格中的 **CPU使用率、iGPU使用率、TTFT（Time-to-first-Token）**與**生成速度**觀察VGM 在不同量化設定下的效能差異與運算資源分配情形。其中，量化等級以 `qX` 表示，X 為位元數(數值越低壓縮率越高，但模型精度可能會下降)；命名中的`0`、`1`、`K_Small`、`K_Medium`、`K_Large` 則代表同位元下的不同量化變體，允許使用者在速度、資源與精度之間取不同平衡。
 
   | Model                         |  CPU (%) | iGPU (%) |  TTFT (ms) |  Speed (token/s)  |
   |-------------------------------|----------|----------|---------------|------------|
@@ -32,7 +32,7 @@
 
 ### 架構相容性測試
 
-本節彙整了參數量8b以下、可於本地端運行的多種主流大型語言模型，並比較其在 AMD Ryzen AI APU 上的實際效能表現。您可以透過表格中的 CPU%、iGPU%、TTFT（Time-to-first-Token） 與 生成速度，觀察不同模型架構在本地推論時的資源分配與速度差異。
+本節彙整了參數量8b以下可於本地端運行的多種主流大型語言模型，並比較其在 AMD Ryzen AI APU 上的實際效能表現。您可以透過以下表格觀察不同模型架構在本地推論時的資源分配與速度差異。建議讀者可以搭配前述量化策略評估，針對應用情境適用的模型版本，進一步尋找合適的模型量化，達到最佳的效能、資源與精度的平衡。
  
   | Model             |  CPU (%) | iGPU (%) |  TTFT (ms) |  Speed (token/s)  |
   |-------------------|----------|----------|---------------|------------|
@@ -50,7 +50,5 @@
   | gemma3n:e2b       |  35      |   5      | 352.3         | 27.51      |
   | aya:8b            |  28      |   3      | 733.4         | 9.21       |
 
-llm_benchmark run --custombenchmark=custombenchmarkmodels.yml
-base chat instruct
 * [**LLM-Benchmark**](https://llm.aidatatools.com/)
 * [LM-SYS](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
