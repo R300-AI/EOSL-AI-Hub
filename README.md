@@ -92,8 +92,6 @@ AI model deployment on Ryzen AI using hybrid CPU, GPU, and NPU acceleration.
 AI model deployment on Genio EVK with support for CPU, GPU, or NPU.
 - **[MTK] 2024/03** — - Initiated [**EOSL AI Hub**](https://github.com/R300-AI/EOSL-AI-Hub/tree/main) :
 A validation platform for CV/NLP/Audio/Multimodal models across diverse chipsets. (The current phase is reflected in the table below).
-)
-
 
 <div align="center">
 <table>
