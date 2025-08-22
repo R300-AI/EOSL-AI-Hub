@@ -8,3 +8,5 @@
   | yolov8n | ArmNN(`Mali-G57`)           |               |               |               |                  |
   | SSD     | NeuronRT(`MDLA 3.0`)        |               |               |               |                  |
   | SSD     | NeuronRT(`MDLA 3.0`)        |               |               |               |                  |
+
+### Genio 700
