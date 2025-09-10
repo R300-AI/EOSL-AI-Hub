@@ -15,7 +15,7 @@ llm_benchmark run --custombenchmark=profile_<task>.yml
 
 您可以透過表格中的 **CPU使用率、iGPU使用率、TTFT（Time-to-first-Token）**與**生成速度**觀察VGM 在不同量化設定下的效能差異與運算資源分配情形。其中，量化等級以 `qX` 表示，X 為位元數(數值越低壓縮率越高，但模型精度可能會下降)；命名中的`0`、`1`、`K_Small`、`K_Medium`、`K_Large` 則代表同位元下的不同量化變體，允許使用者在速度、資源與精度之間取不同平衡。
 
-  | Model                         |  CPU (%) | iGPU (%) |  TTFT (ms) |  Evaluate (token/s)  | Generate (token/s)  |
+  | Model                         |  CPU (%) | iGPU (%) |  Load (ms) |  Evaluate (token/s)  | Generate (token/s)  |
   |-------------------------------|----------|----------|---------------|------------|------------|
   | qwen2.5:0.5b                  |    34    |    7     |        33.3   || 101.48     |
   | qwen2.5:0.5b-base-q2_K        |    33    |   10     |        20.6   || 103.79     |
@@ -37,7 +37,7 @@ llm_benchmark run --custombenchmark=profile_<task>.yml
 
 本節彙整了參數量`8B`參數以下可部署於本地端執行的多種主流大型語言模型，並比較其在 AMD Ryzen AI APU 上的實際效能表現，您可以透過以此表格觀察不同架構的模型在推論時的資源分配與速度差異。建議讀者可以進一步搭配前述的量化策略評估，針對應用情境適用的模型版本進一步尋找合適的模型量化，以達到最佳的效能、資源與精度的平衡。
  
-  | Model             |  CPU (%) | iGPU (%) |  TTFT (ms) |  Evaluate (token/s)  | Generate (token/s)  |
+  | Model             |  CPU (%) | iGPU (%) |  Load (ms) |  Evaluate (token/s)  | Generate (token/s)  |
   |-------------------|----------|----------|---------------|------------|------------|
   | deepseek-r1:1.5b  |  35      |   9      | 242.2         ||  42.77     | 
   | deepseek-llm:7b   |  22      |   2      | 761.3         ||  9.58      |  
