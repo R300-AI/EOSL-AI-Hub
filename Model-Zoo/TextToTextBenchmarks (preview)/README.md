@@ -15,7 +15,7 @@ llm_benchmark run --custombenchmark=profile_<task>.yml
 
 您可以透過表格中的 **CPU使用率、iGPU使用率、TTFT（Time-to-first-Token）**與**生成速度**觀察VGM 在不同量化設定下的效能差異與運算資源分配情形。其中，量化等級以 `qX` 表示，X 為位元數(數值越低壓縮率越高，但模型精度可能會下降)；命名中的`0`、`1`、`K_Small`、`K_Medium`、`K_Large` 則代表同位元下的不同量化變體，允許使用者在速度、資源與精度之間取不同平衡。
 
-  | Model                         |  CPU (%) | iGPU (%) |  TTFT (ms) |  Encode Speed (token/s)  | Decode Speed (token/s)  |
+  | Model                         |  CPU (%) | iGPU (%) |  TTFT (ms) |  Evaluate (token/s)  | Generate (token/s)  |
   |-------------------------------|----------|----------|---------------|------------|------------|
   | qwen2.5:0.5b                  |    34    |    7     |        33.3   | 101.48     ||
   | qwen2.5:0.5b-base-q2_K        |    33    |   10     |        20.6   | 103.79     ||
