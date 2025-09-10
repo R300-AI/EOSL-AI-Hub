@@ -1,6 +1,6 @@
 ## AMD Ryzen AI 300 Series
 
-基於 AMD 官方建議，本報告採用 [**Ollama**](https://ollama.com/) 推論框架及[**LLM-Benchmark**](https://llm.aidatatools.com/)在本地執行大型語言模型的測試，Ollama對AMD Ryzen AI APU已提供完善的支援，能在 Windows 與 Linux 環境下直接利用 iGPU 做加速，兼顧效能、效率與本地資料隱私。
+基於 AMD 官方建議，本報告採用 [**Ollama**](https://ollama.com/) 推論框架及[**LLM-Benchmark**](https://pypi.org/project/llm-benchmark/)在本地執行大型語言模型的測試，Ollama對AMD Ryzen AI APU已提供完善的支援，能在 Windows 與 Linux 環境下直接利用 iGPU 做加速，兼顧效能、效率與本地資料隱私。
 
 ```bash
 llm_benchmark run --custombenchmark=profile_quant.yml
