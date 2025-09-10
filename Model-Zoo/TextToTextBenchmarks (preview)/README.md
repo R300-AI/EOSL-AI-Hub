@@ -4,7 +4,7 @@
 
 ```bash
 pip install llm-benchmark
-llm_benchmark run --custombenchmark=profile_quant.yml
+llm_benchmark run --custombenchmark=profile_<task>.yml
 ```
 
 > 請注意，執行過程需透過BIOS或Adrenalin Editor開啟`VGM（VRAM iGPU Memory）`。 VGM是 AMD 專為 Ryzen AI 設計的記憶體最佳化技術，能讓推論過程更高效率地載入與處理權重及資料，減少 CPU 與 GPU 間的傳輸瓶頸與延遲，提升整體的推論速度與穩定性。
